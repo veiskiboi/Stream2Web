@@ -47,5 +47,5 @@ Example access URL:
 
 ```bash
 git clone git@github.com:veiskiboi/Stream2Web.git
-cd Stream2Web``
+cd Stream2Web
 ```
