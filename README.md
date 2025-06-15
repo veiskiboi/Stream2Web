@@ -17,7 +17,7 @@ The stream is archived automatically in segments, and accessible remotely.
 ### For advanced users:
   - Install sender to send live camera feed via HSL (UDP)
   - Install receiver to either local server or remote one.
-  - Run conceniently the web-setup file for preconfigured nginx site Stream2Web on {SERVER_IP}:{UDP_PORT}/{STREAM_LOCATION}
+  - Run conceniently the web-setup file for preconfigured nginx site Stream2Web on {SERVER_IP}:{UDP_PORT}/{STREAM_LOCATION} (ex. 192.168.1.102:4000/stream)
   
 ---
 
