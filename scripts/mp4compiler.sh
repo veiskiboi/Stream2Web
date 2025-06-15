@@ -2,7 +2,7 @@
 set -euo pipefail
 
 check_dependencies() {
-  local deps=(ffmpeg awk du ls sort mktemp)
+  local deps=(ffmpeg awk du ls sort mktemp stat)
   for cmd in "${deps[@]}"; do
     if ! command -v "$cmd" >/dev/null 2>&1; then
       echo "ERROR: Required command '$cmd' not found. Please install it." >&2
@@ -26,6 +26,22 @@ log() {
   echo "$(date '+%Y-%m-%d %H:%M:%S'): $*" | tee -a "$LOG_DIR/mp4_compiler.log"
 }
 
+# Clean up any leftover .ts files before starting
+if compgen -G "$HLS_DIR/*.ts" > /dev/null; then
+  log "Cleaning up leftover .ts files in $HLS_DIR"
+  rm -f "$HLS_DIR"/*.ts
+fi
+
+# Check if a file is stable (not growing in size)
+is_file_stable() {
+  local file=$1
+  local size1 size2
+  size1=$(stat -c%s "$file")
+  sleep 1
+  size2=$(stat -c%s "$file")
+  [[ "$size1" -eq "$size2" ]]
+}
+
 # Read processed segments from state file into an associative array for quick lookup
 declare -A processed_ts
 if [ -f "$STATE_FILE" ]; then
@@ -38,29 +54,31 @@ while true; do
   # List all .ts files sorted by name (assumed time-ordered)
   mapfile -t all_ts < <(ls -1 "$HLS_DIR"/*.ts 2>/dev/null | sort)
 
-  # Filter unprocessed .ts files
+  # Filter unprocessed and stable .ts files
   unprocessed=()
   for f in "${all_ts[@]}"; do
     filename=$(basename "$f")
-    if [ -z "${processed_ts[$filename]}" ]; then
-      unprocessed+=("$filename")
+    if [ -z "${processed_ts[$filename]-}" ]; then
+      if is_file_stable "$f"; then
+        unprocessed+=("$filename")
+      else
+        log "File $filename is still being written, skipping"
+      fi
     fi
   done
 
   if [ ${#unprocessed[@]} -lt $SEGMENTS_PER_FILE ]; then
-    log "Not enough new segments yet (${#unprocessed[@]}/$SEGMENTS_PER_FILE). Waiting..."
+    log "Not enough new stable segments yet (${#unprocessed[@]}/$SEGMENTS_PER_FILE). Waiting..."
     sleep 60
     continue
   fi
 
-  # Process chunks of $SEGMENTS_PER_FILE
   chunks=$(( ${#unprocessed[@]} / SEGMENTS_PER_FILE ))
 
   for ((c=0; c<chunks; c++)); do
     start=$(( c * SEGMENTS_PER_FILE ))
     end=$(( start + SEGMENTS_PER_FILE - 1 ))
 
-    # Prepare list file for ffmpeg concat demuxer
     tmp_list=$(mktemp)
     for ((i=start; i<=end; i++)); do
       echo "file '$HLS_DIR/${unprocessed[i]}'" >> "$tmp_list"
@@ -79,7 +97,6 @@ while true; do
       continue
     fi
 
-    # Mark segments as processed & delete .ts files
     for ((i=start; i<=end; i++)); do
       fname="${unprocessed[i]}"
       echo "$fname" >> "$STATE_FILE"
@@ -89,7 +106,6 @@ while true; do
 
     log "Created $output_file and cleaned up processed .ts files."
 
-    # Archive size cleanup
     MAX_ARCHIVE_SIZE=$((10 * 1024 * 1024 * 1024))  # 10 GB
     while true; do
       total_size=$(du -sb "$ARCHIVE_DIR" | awk '{print $1}')
