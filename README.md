@@ -19,12 +19,13 @@ The stream is archived automatically in segments, and accessible remotely.
 - Streams are saved in segmented `.st` files.  
 - These segments are automatically converted to 30-minute `.mp4` videos for easier playback and storage.  
 - Archive size is managed by deleting the oldest files when limits are reached. Default max (10GB)
-
 Example archive URL:
 ```bash
 {SERVER_IP}:{UDP_PORT}/{ARCHIVE_DIR}
 # e.g.
 192.168.1.102:4000/archive
+&
+/etc/var/www/html/archive
 ```
 ---
 
@@ -39,6 +40,8 @@ Example access URL:
 {SERVER_IP}:{UDP_PORT}/{STREAM_LOCATION}
 # e.g.
 192.168.1.102:4000/stream
+&
+/etc/var/www/html/stream
 ```
 --
 
