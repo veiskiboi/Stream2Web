@@ -14,13 +14,21 @@ The stream is archived automatically in segments, and accessible remotely.
 - 🔒 .env based configuration
 - 🚀 Fully scriptable setup and deployment
 
-### For advanced users:
-  - Install sender to send live camera feed via HSL (UDP)
-  - Install receiver to either local server or remote one.
-  - Run conceniently the web-setup file for preconfigured nginx site Stream2Web on {SERVER_IP}:{UDP_PORT}/{STREAM_LOCATION}
-    - (example 192.168.1.102:4000/stream)
-  
 ---
+
+## Advanced Usage
+
+- Install **sender** to stream live camera feed via HLS (UDP)
+- Install **receiver** on local or remote server
+- Use the `web-setup` script to configure Nginx automatically
+
+Example access URL:  
+```bash
+{SERVER_IP}:{UDP_PORT}/{STREAM_LOCATION}
+# e.g.
+192.168.1.102:4000/stream
+```
+--
 
 ## Requirements
 
@@ -39,4 +47,5 @@ The stream is archived automatically in segments, and accessible remotely.
 
 ```bash
 git clone git@github.com:veiskiboi/Stream2Web.git
-cd Stream2Web
+cd Stream2Web``
+```
