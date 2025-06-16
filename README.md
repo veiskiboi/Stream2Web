@@ -71,4 +71,5 @@ Example access URL:
 ```bash
 git clone https://github.com/veiskiboi/Stream2Web.git
 cd Stream2Web
+sudo ./run.sh # Standard setup. For advanced, check Advanced Usage
 ```
