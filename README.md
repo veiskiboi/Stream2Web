@@ -31,7 +31,7 @@ Example archive URL:
 ```bash
 {SERVER_IP}:{WEB_PORT}/{ARCHIVE_DIR}
 # e.g.
-192.168.1.102:4000/archive
+127.0.0.1:4000/archive
 &
 /etc/var/www/html/archive
 ```
@@ -48,7 +48,7 @@ Example access URL:
 ```bash
 {SERVER_IP}:{WEB_PORT}/{STREAM_LOCATION}
 # e.g.
-192.168.1.102:4000/stream
+127.0.0.1:4000/stream
 &
 /etc/var/www/html/stream
 ```
