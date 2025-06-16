@@ -24,7 +24,7 @@ Contributions and feedback to improve this feature are welcome!
 ## Archiving
 
 - Streams are saved in segmented `.st` files.  
-- These segments are automatically converted to 30-minute `.mp4` videos for easier playback and storage. (`.st` segments are cleaned afterwards)
+- These segments are automatically converted to 30-minute `.mp4` videos by default for easier playback and storage. (`.st` segments are cleaned afterwards). 
 - Archive size is managed by deleting the oldest files when limits are reached. Default max (10GB)
 
 Example archive URL:
