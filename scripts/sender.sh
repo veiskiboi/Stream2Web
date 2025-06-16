@@ -1,11 +1,36 @@
 #!/bin/bash
 set -euo pipefail
 
+# Prevent multiple instances
+SCRIPT_NAME=$(basename "$0")
+LOCK_FILE="/tmp/${SCRIPT_NAME%.sh}.lock"
+
+# Check for running instances using ps aux
+if ps aux | grep -E "bash .*$SCRIPT_NAME" | grep -v "$$" | grep -v "grep" >/dev/null; then
+  log_error "Another instance of $SCRIPT_NAME is already running"
+  exit 1
+fi
+
+# Acquire lock
+exec 200>"$LOCK_FILE"
+if ! flock -n 200; then
+  log_error "Failed to acquire lock for $SCRIPT_NAME"
+  exit 1
+fi
+
+# Cleanup lock file on exit
+cleanup() {
+  if [ -f "$LOCK_FILE" ]; then
+    rm -f "$LOCK_FILE" && log "Removed lock file $LOCK_FILE"
+  fi
+}
+trap cleanup SIGINT SIGTERM EXIT
+
 check_dependencies() {
-  local deps=(ffmpeg fuser pgrep pkill ping sudo)
+  local deps=(ffmpeg fuser pgrep pkill ping sudo ps)
   for cmd in "${deps[@]}"; do
     if ! command -v "$cmd" >/dev/null 2>&1; then
-      echo "ERROR: Required command '$cmd' not found. Please install it." >&2
+      log_error "Required command '$cmd' not found. Please install it."
       exit 1
     fi
   done
@@ -83,4 +108,5 @@ while true; do
   log "Waiting 5 seconds before next iteration..."
   sleep 5
 done
+
 
