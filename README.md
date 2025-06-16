@@ -28,7 +28,7 @@ Contributions and feedback to improve this feature are welcome!
 
 Example archive URL:
 ```bash
-{SERVER_IP}:{UDP_PORT}/{ARCHIVE_DIR}
+{SERVER_IP}:{WEB_PORT}/{ARCHIVE_DIR}
 # e.g.
 192.168.1.102:4000/archive
 &
@@ -44,7 +44,7 @@ Example archive URL:
 
 Example access URL:  
 ```bash
-{SERVER_IP}:{UDP_PORT}/{STREAM_LOCATION}
+{SERVER_IP}:{WEB_PORT}/{STREAM_LOCATION}
 # e.g.
 192.168.1.102:4000/stream
 &
