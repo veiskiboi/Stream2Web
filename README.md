@@ -4,7 +4,13 @@
 The stream is archived automatically in segments, and accessible remotely.
 
 ---
+⚠️ Important Notice
+The archive size management feature (10GB limit cleanup) is still experimental.
+While the script tries to keep the archive folder under 10GB by deleting the oldest files, it may not always work perfectly in all scenarios.
+Use with caution and monitor your storage until you're confident it behaves as expected.
 
+Contributions and feedback to improve this feature are welcome!
+---
 ## Features
 
 - 📹 Live streaming via HLS
