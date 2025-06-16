@@ -24,8 +24,8 @@ NGINX_CONF_PATH="$NGINX_SITE_AVAILABLE"
 
 cat > "$NGINX_CONF_PATH" <<EOF
 server {
-    listen 4000;
-    server_name localhost;
+    listen $WEB_PORT;
+    server_name $SERVER_IP;
 
     root $WEB_ROOT;
     index index.html;
