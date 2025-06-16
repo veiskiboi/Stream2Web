@@ -38,8 +38,8 @@ Example archive URL:
 
 ## Advanced Usage
 
-- Install **sender** to stream live camera feed via HLS (UDP)
-- Install **receiver** on local or remote server
+- Install `sender` to stream live camera feed via HLS (UDP)
+- Install `receiver` on local or remote server
 - Use the `web-setup` script to configure Nginx automatically
 
 Example access URL:  
