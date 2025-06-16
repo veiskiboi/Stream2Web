@@ -10,6 +10,7 @@ While the script tries to keep the archive folder under 10GB by deleting the old
 Use with caution and monitor your storage until you're confident it behaves as expected.
 
 Contributions and feedback to improve this feature are welcome!
+
 ---
 ## Features
 
@@ -34,8 +35,8 @@ Example archive URL:
 &
 /etc/var/www/html/archive
 ```
----
 
+---
 ## Advanced Usage
 
 - Install `sender` to stream live camera feed via HLS (UDP)
@@ -51,8 +52,8 @@ Example access URL:
 &
 /etc/var/www/html/stream
 ```
---
 
+---
 ## Requirements
 
 - Linux (tested on Debian 24 & Raspberry Pi OS)
@@ -61,8 +62,6 @@ Example access URL:
 - `sudo`
 - `awk`, `du`, `ls`, `sort`, `mktemp`, `stat`, `bc`, `fuser`  
 (All dependencies are checked automatically by scripts)
-
----
 
 ## Installation
 
