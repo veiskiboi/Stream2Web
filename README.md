@@ -68,6 +68,6 @@ Example access URL:
 ### Clone repository
 
 ```bash
-git clone git@github.com:veiskiboi/Stream2Web.git
+git clone https://github.com/veiskiboi/Stream2Web.git
 cd Stream2Web
 ```
