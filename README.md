@@ -41,6 +41,7 @@ Example archive URL:
 - Install `sender` to stream live camera feed via HLS (UDP)
 - Install `receiver` on local or remote server
 - Use the `web-setup` script to configure Nginx automatically
+- Use the `nginx-stop` script to stops Nginx web server. To resume, run `web-setup` again.
 
 Example access URL:  
 ```bash
