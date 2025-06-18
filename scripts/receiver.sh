@@ -1,60 +1,65 @@
 #!/bin/bash
 set -euo pipefail
 
-# Prevent multiple instances
+# Normalize paths
 SCRIPT_NAME=$(basename "$0")
-LOCK_FILE="/tmp/${SCRIPT_NAME%.sh}.lock"
+BASE_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 
-# Check for running instances using ps aux
-if ps aux | grep -E "bash .*$SCRIPT_NAME" | grep -v "$$" | grep -v "grep" >/dev/null; then
-  log "ERROR: Another instance of $SCRIPT_NAME is already running"
-  exit 1
+# Load env vars from repo root .env
+set -a
+source "$BASE_DIR/.env"
+set +a
+
+LOG_DIR="$BASE_DIR/${LOG_DIR#./}"
+LOCK_DIR="$BASE_DIR/${LOCK_DIR#./}"
+LOCK_FILE="$LOCK_DIR/${SCRIPT_NAME%.sh}.lock"
+LOG_FILE="$LOG_DIR/${SCRIPT_NAME}.log"
+
+mkdir -p "$HLS_DIR" "$LOG_DIR"
+
+log() {
+  echo "$(date '+%Y-%m-%d %H:%M:%S'): $*" | tee -a "$LOG_FILE"
+}
+
+log_error() {
+  echo "$(date '+%Y-%m-%d %H:%M:%S'): ERROR: $*" | tee -a "$LOG_DIR/error.log" >&2
+}
+
+# --- Lock Handling ---
+if [ -f "$LOCK_FILE" ] && ! lsof "$LOCK_FILE" >/dev/null 2>&1; then
+  log "Stale lock detected. Removing..."
+  rm -f "$LOCK_FILE"
 fi
 
-# Acquire lock
 exec 200>"$LOCK_FILE"
 if ! flock -n 200; then
-  log "ERROR: Failed to acquire lock for $SCRIPT_NAME"
+  log_error "Another instance of $SCRIPT_NAME is already running. $LOCK_FILE"
   exit 1
 fi
 
-# Cleanup lock file on exit
 cleanup() {
-  if [ -f "$LOCK_FILE" ]; then
-    rm -f "$LOCK_FILE" && log "Removed lock file $LOCK_FILE"
-  fi
+  rm -f "$LOCK_FILE"
+  log "Cleanup complete. Lock file removed."
 }
-trap cleanup SIGINT SIGTERM EXIT
+trap cleanup SIGINT SIGTERM
 
 check_dependencies() {
   local deps=(ffmpeg ps)
-  for cmd in "${Deps[@]}"; do
-    if ! command -v "$cmd" >/dev/null 2>&1; then
-      log "ERROR: Required command '$cmd' not found. Please install it."
+  for cmd in "${deps[@]}"; do
+    if ! command -v "$cmd" &>/dev/null; then
+      log_error "Required command '$cmd' not found. Please install it."
       exit 1
     fi
   done
 }
-
 check_dependencies
 
-# Load env vars from repo root .env
-set -a
-source "$(dirname "$0")/../.env"
-set +a
-
-# Ensure required directories exist
-mkdir -p "$HLS_DIR" "$LOG_DIR"
-
-log() {
-  echo "$(date '+%Y-%m-%d %H:%M:%S'): $*" | tee -a "$LOG_DIR/restream.log"
-}
 
 while true; do
   log "Starting FFmpeg restreaming..."
 
   ffmpeg -f mpegts -i "udp://0.0.0.0:$UDP_PORT?reuse=1" -c:v copy -c:a aac -f hls \
-    -hls_time 2 -hls_list_size 3 \
+    -hls_time "$SEGMENT_DURATION" -hls_list_size 3 \
     "$HLS_DIR/output.m3u8" 2>>"$LOG_DIR/restream_error.log" &
 
   FFMPEG_PID=$!
@@ -62,9 +67,9 @@ while true; do
   FF_EXIT_CODE=$?
 
   if [ $FF_EXIT_CODE -ne 0 ]; then
-    log "FFmpeg failed! Check $LOG_DIR/restream_error.log for details."
+    log_error "FFmpeg failed! Check $LOG_DIR/restream_error.log"
   else
-    log "FFmpeg stopped normally, restarting..."
+    log "FFmpeg stopped normally. Restarting..."
   fi
 
   sleep 5

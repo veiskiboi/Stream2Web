@@ -1,21 +1,53 @@
 #!/bin/bash
 set -euo pipefail
 
-# Lock file to prevent multiple run.sh instances
-LOCK_FILE="/tmp/run.sh.lock"
-PIDS=()
+# Normalize paths
+SCRIPT_NAME=$(basename "$0")
+BASE_DIR="$(pwd)"
+SCRIPTS_DIR="$BASE_DIR/scripts"
+
+# Load env vars from repo root .env
+set -a
+source "$BASE_DIR/.env"
+set +a
+
+
+LOG_DIR="$BASE_DIR/${LOG_DIR#./}"
+LOCK_DIR="$BASE_DIR/${LOCK_DIR#./}"
+LOCK_FILE="$LOCK_DIR/${SCRIPT_NAME%.sh}.lock"
+LOG_FILE="$LOG_DIR/${SCRIPT_NAME}.log"
+
+mkdir -p "$LOG_DIR"
 
 log() {
-  echo "$(date '+%Y-%m-%d %H:%M:%S'): $*" >> "$LOG_FILE"
-  echo "$(date '+%Y-%m-%d %H:%M:%S'): $*" >&2
+  echo "$(date '+%Y-%m-%d %H:%M:%S'): $*" | tee -a "$LOG_FILE"
 }
 
-# Cleanup function to remove lock file and kill child processes
+log_error() {
+  echo "$(date '+%Y-%m-%d %H:%M:%S'): ERROR: $*" | tee -a "$LOG_DIR/error.log" >&2
+}
+
+# --- Lock Handling ---
+if [ -f "$LOCK_FILE" ] && ! lsof "$LOCK_FILE" >/dev/null 2>&1; then
+  log "Stale lock detected. Removing..."
+  rm -f "$LOCK_FILE"
+fi
+
+exec 200>"$LOCK_FILE"
+if ! flock -n 200; then
+  log_error "Another instance of $SCRIPT_NAME is already running. $LOCK_FILE"
+  exit 1
+fi
+
 cleanup() {
+  rm -f "$LOCK_FILE"
+  log "Cleanup complete. Lock file removed."
+
   log "Stopping all child processes..."
   if [ ${#PIDS[@]} -gt 0 ]; then
     sudo kill "${PIDS[@]}" 2>/dev/null || true
-    sleep 2  # give them a moment to terminate
+    echo "Waiting... terminating..."
+    sleep 4  # give them a moment to terminate
 
     for pid in "${PIDS[@]}"; do
       if ps -p "$pid" > /dev/null 2>&1; then
@@ -24,45 +56,16 @@ cleanup() {
       fi
     done
   fi
-
-  if [ -f "$LOCK_FILE" ]; then
-    sudo rm -f "$LOCK_FILE"
-    log "Removed lock file $LOCK_FILE"
+  rm -f "$LOCK_DIR"/*.lock
+  echo "Lock files deleted succcessfully."
+  if ls "$LOCK_DIR"/*.lock &>/dev/null; then
+    log "WARNING: Some .lock files remain in $LOCK_DIR"
+  else
+    log "All .lock files successfully removed from $LOCK_DIR"
   fi
-
-  log "All child processes stopped. Exiting."
-  exit
 }
+trap cleanup SIGINT SIGTERM
 
-# Trap signals for cleanup
-trap cleanup SIGINT SIGTERM EXIT
-
-# Base directory of repo
-BASE_DIR="$(dirname "$0")"
-SCRIPTS_DIR="$BASE_DIR/scripts"
-
-# Log directory (align with .env or adjust as needed)
-LOG_DIR="/var/log/streaming"
-mkdir -p "$LOG_DIR"
-LOG_FILE="$LOG_DIR/run.log"
-
-# Check if another run.sh is actually running
-if pgrep -f "bash .*/run.sh" >/dev/null && [ -f "$LOCK_FILE" ]; then
-  log "ERROR: Another instance of run.sh is already running"
-  exit 1
-elif [ -f "$LOCK_FILE" ]; then
-  log "Removing stale lock file $LOCK_FILE"
-  rm -f "$LOCK_FILE" || log "WARNING: Failed to remove stale $LOCK_FILE"
-fi
-
-# Acquire lock
-exec 200>"$LOCK_FILE"
-if ! flock -n 200; then
-  log "ERROR: Failed to acquire lock on $LOCK_FILE"
-  exit 1
-fi
-
-# List of scripts to manage
 SCRIPTS=(
   "sender.sh"
   "web-setup.sh"
@@ -70,7 +73,6 @@ SCRIPTS=(
   "mp4compiler.sh"
 )
 
-# Check dependencies
 check_dependencies() {
   local deps=(flock pgrep)
   for cmd in "${deps[@]}"; do
@@ -83,7 +85,6 @@ check_dependencies() {
 
 check_dependencies
 
-# Check for sudo privileges
 if [ "$(id -u)" -ne 0 ]; then
   log "ERROR: This script must be run with sudo privileges"
   exit 1
@@ -93,21 +94,18 @@ for script in "${SCRIPTS[@]}"; do
   script_name=$(basename "$script")
   script_path="$SCRIPTS_DIR/$script"
 
-  # Check if script exists
   if [ ! -f "$script_path" ]; then
     log "ERROR: Script $script_path not found"
     cleanup
   fi
 
-  # Start the script without nohup, track PID
   log "Starting $script_name"
-  bash "$script_path" >> "$LOG_DIR/${script_name%.sh}.log" 2>&1 &
+  bash "$script_path" 2>&1 | tee -a "$LOG_DIR/${script_name%.sh}.log" &
   PIDS+=($!)
   log "$script_name started successfully (PID: ${PIDS[-1]})"
 done
 
 log "All services started. Logs are in $LOG_DIR."
 
-# Wait for all child processes and handle signals
 wait "${PIDS[@]}"
 

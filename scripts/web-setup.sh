@@ -1,23 +1,58 @@
 #!/bin/bash
 set -euo pipefail
 
-# Load env vars
+# Normalize paths
+SCRIPT_NAME=$(basename "$0")
+BASE_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+
+# Load env vars from repo root .env
 set -a
-source "$(dirname "$0")/../.env"
+source "$BASE_DIR/.env"
 set +a
 
-command_exist() {
-  command -v "$1" >/dev/null 2>&1
+LOG_DIR="$BASE_DIR/${LOG_DIR#./}"
+LOCK_DIR="$BASE_DIR/${LOCK_DIR#./}"
+LOCK_FILE="$LOCK_DIR/${SCRIPT_NAME%.sh}.lock"
+LOG_FILE="$LOG_DIR/${SCRIPT_NAME}.log"
+
+mkdir -p "$HLS_DIR"
+
+log() {
+  echo "$(date '+%Y-%m-%d %H:%M:%S'): $*" | tee -a "$LOG_FILE"
 }
 
-# Check dependencies
-deps=(nginx tee)
-for dep in "${deps[@]}"; do
-  if ! command_exist "$dep"; then
-    echo "ERROR: Required command '$dep' not found. Please install it."
-    exit 1
-  fi
-done
+log_error() {
+  echo "$(date '+%Y-%m-%d %H:%M:%S'): ERROR: $*" | tee -a "$LOG_DIR/error.log" >&2
+}
+
+# --- Lock Handling ---
+if [ -f "$LOCK_FILE" ] && ! lsof "$LOCK_FILE" >/dev/null 2>&1; then
+  log "Stale lock detected. Removing..."
+  rm -f "$LOCK_FILE"
+fi
+
+exec 200>"$LOCK_FILE"
+if ! flock -n 200; then
+  log_error "Another instance of $SCRIPT_NAME is already running. $LOCK_FILE"
+  exit 1
+fi
+
+cleanup() {
+  rm -f "$LOCK_FILE"
+  log "Cleanup complete. Lock file removed."
+}
+trap cleanup SIGINT SIGTERM
+
+check_dependencies() {
+  local deps=(nginx tee)
+  for cmd in "${deps[@]}"; do
+    if ! command -v "$cmd" &>/dev/null; then
+      log_error "Required command '$cmd' not found. Please install it."
+      exit 1
+    fi
+  done
+}
+check_dependencies
 
 # Create nginx site config
 NGINX_CONF_PATH="$NGINX_SITE_AVAILABLE"
@@ -52,16 +87,15 @@ echo "Nginx site config created at $NGINX_CONF_PATH"
 if [ ! -L "$NGINX_SITE_ENABLED" ]; then
   ln -s "$NGINX_SITE_AVAILABLE" "$NGINX_SITE_ENABLED"
   echo "Enabled nginx site by linking to sites-enabled."
+  cleanup
 else
   echo "Nginx site already enabled."
+  cleanup
 fi
 
 # Reload nginx to apply changes
 echo "Reloading nginx..."
 sudo systemctl reload nginx
-
-# Create stream folder and index.html
-mkdir -p "$HLS_DIR"
 
 cat > "$HLS_DIR/index.html" <<EOF
 <!DOCTYPE html>
@@ -99,4 +133,3 @@ cat > "$HLS_DIR/index.html" <<EOF
 EOF
 
 echo "Stream index.html created at $HLS_DIR/index.html"
-
