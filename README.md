@@ -31,15 +31,15 @@ You have two options:
 1. **Basic setup**  
    Run the `run` script to install everything you need on your local Linux‑based system.
 
-2. **Custom setup**  
+2. **Custom setup***  
    Stream from a camera device through a Linux system and send it to a local or remote server.
 
-### Camera Device (Linux‑based)
+### Camera Device* (Linux‑based)
 
 - Install `sender` to stream live camera feed via HLS (over UDP).
 - Use `usbreset` to ensure each USB webcam is detected. Designed for USB‑A port devices.
 
-### Server Device
+### Server Device*
 
 - Install `receiver` on a local or remote server.
 - Use `web-setup` to automatically configure Nginx.
