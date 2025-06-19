@@ -13,7 +13,7 @@ set +a
 LOG_DIR="$BASE_DIR/${LOG_DIR#./}"
 LOCK_DIR="$BASE_DIR/${LOCK_DIR#./}"
 LOCK_FILE="$LOCK_DIR/${SCRIPT_NAME%.sh}.lock"
-LOG_FILE="$LOG_DIR/${SCRIPT_NAME}.log"
+LOG_FILE="$LOG_DIR/${SCRIPT_NAME%.sh}.log"
 
 mkdir -p "$HLS_DIR"
 

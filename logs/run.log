@@ -1,0 +1,141 @@
+2025-06-19 13:12:33: Script name: run.sh Base directory: /home/vesah/Stream2Web Scripts directory: /home/vesah/Stream2Web/scripts Log directory: /home/vesah/Stream2Web/logs Lock directory: /home/vesah/Stream2Web/tmp Lock file: /home/vesah/Stream2Web/tmp/run.lock Log file: /home/vesah/Stream2Web/logs/run.log
+2025-06-19 13:12:33: Starting web-setup.sh
+2025-06-19 13:12:33: web-setup.sh started successfully (PID: 6375)
+2025-06-19 13:12:33: Starting sender.sh
+2025-06-19 13:12:33: sender.sh started successfully (PID: 6388)
+2025-06-19 13:12:33: Starting receiver.sh
+2025-06-19 13:12:33: receiver.sh started successfully (PID: 6406)
+2025-06-19 13:12:33: Starting mp4compiler.sh
+2025-06-19 13:12:33: mp4compiler.sh started successfully (PID: 6423)
+2025-06-19 13:12:33: All services started. Logs are in /home/vesah/Stream2Web/logs.
+2025-06-19 13:13:55: Cleanup complete. Lock file removed.
+2025-06-19 13:13:55: Stopping all child processes...
+2025-06-19 13:13:59: All .lock files successfully removed from /home/vesah/Stream2Web/tmp
+2025-06-19 13:14:13: Script name: run.sh Base directory: /home/vesah/Stream2Web Scripts directory: /home/vesah/Stream2Web/scripts Log directory: /home/vesah/Stream2Web/logs Lock directory: /home/vesah/Stream2Web/tmp Lock file: /home/vesah/Stream2Web/tmp/run.lock Log file: /home/vesah/Stream2Web/logs/run.log
+2025-06-19 13:14:13: Starting web-setup.sh
+2025-06-19 13:14:13: web-setup.sh started successfully (PID: 7473)
+2025-06-19 13:14:13: Starting sender.sh
+2025-06-19 13:14:13: sender.sh started successfully (PID: 7486)
+2025-06-19 13:14:13: Starting receiver.sh
+2025-06-19 13:14:13: receiver.sh started successfully (PID: 7505)
+2025-06-19 13:14:13: Starting mp4compiler.sh
+2025-06-19 13:14:13: mp4compiler.sh started successfully (PID: 7521)
+2025-06-19 13:14:13: All services started. Logs are in /home/vesah/Stream2Web/logs.
+2025-06-19 13:14:40: Cleanup complete. Lock file removed.
+2025-06-19 13:14:40: Stopping all child processes...
+2025-06-19 13:14:45: All .lock files successfully removed from /home/vesah/Stream2Web/tmp
+2025-06-19 13:15:05: Script name: run.sh Base directory: /home/vesah/Stream2Web Scripts directory: /home/vesah/Stream2Web/scripts Log directory: /home/vesah/Stream2Web/logs Lock directory: /home/vesah/Stream2Web/tmp Lock file: /home/vesah/Stream2Web/tmp/run.lock Log file: /home/vesah/Stream2Web/logs/run.log
+2025-06-19 13:15:05: Starting web-setup.sh
+2025-06-19 13:15:05: web-setup.sh started successfully (PID: 8024)
+2025-06-19 13:15:05: Starting sender.sh
+2025-06-19 13:15:05: sender.sh started successfully (PID: 8037)
+2025-06-19 13:15:05: Starting receiver.sh
+2025-06-19 13:15:05: receiver.sh started successfully (PID: 8056)
+2025-06-19 13:15:05: Starting mp4compiler.sh
+2025-06-19 13:15:05: mp4compiler.sh started successfully (PID: 8072)
+2025-06-19 13:15:05: All services started. Logs are in /home/vesah/Stream2Web/logs.
+2025-06-19 13:15:42: Cleanup complete. Lock file removed.
+2025-06-19 13:15:42: Stopping all child processes...
+2025-06-19 13:15:46: All .lock files successfully removed from /home/vesah/Stream2Web/tmp
+2025-06-19 13:16:00: Script name: run.sh Base directory: /home/vesah/Stream2Web Scripts directory: /home/vesah/Stream2Web/scripts Log directory: /home/vesah/Stream2Web/logs Lock directory: /home/vesah/Stream2Web/tmp Lock file: /home/vesah/Stream2Web/tmp/run.lock Log file: /home/vesah/Stream2Web/logs/run.log
+2025-06-19 13:16:00: Starting web-setup.sh
+2025-06-19 13:16:00: web-setup.sh started successfully (PID: 664)
+2025-06-19 13:16:00: Starting sender.sh
+2025-06-19 13:16:00: sender.sh started successfully (PID: 678)
+2025-06-19 13:16:00: Starting receiver.sh
+2025-06-19 13:16:00: receiver.sh started successfully (PID: 693)
+2025-06-19 13:16:00: Starting mp4compiler.sh
+2025-06-19 13:16:00: mp4compiler.sh started successfully (PID: 708)
+2025-06-19 13:16:00: All services started. Logs are in /home/vesah/Stream2Web/logs.
+2025-06-19 13:18:35: Cleanup complete. Lock file removed.
+2025-06-19 13:18:35: Stopping all child processes...
+2025-06-19 13:18:39: All .lock files successfully removed from /home/vesah/Stream2Web/tmp
+2025-06-19 13:20:47: Script name: run.sh Base directory: /home/vesah/Stream2Web Scripts directory: /home/vesah/Stream2Web/scripts Log directory: /home/vesah/Stream2Web/logs Lock directory: /home/vesah/Stream2Web/tmp Lock file: /home/vesah/Stream2Web/tmp/run.lock Log file: /home/vesah/Stream2Web/logs/run.log
+2025-06-19 13:20:48: Starting web-setup.sh
+2025-06-19 13:20:48: web-setup.sh started successfully (PID: 663)
+2025-06-19 13:20:48: Starting sender.sh
+2025-06-19 13:20:48: sender.sh started successfully (PID: 678)
+2025-06-19 13:20:48: Starting receiver.sh
+2025-06-19 13:20:48: receiver.sh started successfully (PID: 693)
+2025-06-19 13:20:48: Starting mp4compiler.sh
+2025-06-19 13:20:48: mp4compiler.sh started successfully (PID: 709)
+2025-06-19 13:20:48: All services started. Logs are in /home/vesah/Stream2Web/logs.
+2025-06-19 13:23:26: Script name: run.sh Base directory: /home/vesah/Stream2Web Scripts directory: /home/vesah/Stream2Web/scripts Log directory: /home/vesah/Stream2Web/logs Lock directory: /home/vesah/Stream2Web/tmp Lock file: /home/vesah/Stream2Web/tmp/run.lock Log file: /home/vesah/Stream2Web/logs/run.log
+2025-06-19 13:23:26: Stale lock detected. Removing...
+2025-06-19 13:23:26: Starting web-setup.sh
+2025-06-19 13:23:26: web-setup.sh started successfully (PID: 680)
+2025-06-19 13:23:26: Starting sender.sh
+2025-06-19 13:23:26: sender.sh started successfully (PID: 690)
+2025-06-19 13:23:26: Starting receiver.sh
+2025-06-19 13:23:26: receiver.sh started successfully (PID: 704)
+2025-06-19 13:23:26: Starting mp4compiler.sh
+2025-06-19 13:23:26: mp4compiler.sh started successfully (PID: 724)
+2025-06-19 13:23:26: All services started. Logs are in /home/vesah/Stream2Web/logs.
+2025-06-19 13:30:20: Cleanup complete. Lock file removed.
+2025-06-19 13:30:20: Stopping all child processes...
+2025-06-19 13:30:26: All .lock files successfully removed from /home/vesah/Stream2Web/tmp
+2025-06-19 13:30:40: Script name: run.sh Base directory: /home/vesah/Stream2Web Scripts directory: /home/vesah/Stream2Web/scripts Log directory: /home/vesah/Stream2Web/logs Lock directory: /home/vesah/Stream2Web/tmp Lock file: /home/vesah/Stream2Web/tmp/run.lock Log file: /home/vesah/Stream2Web/logs/run.log
+2025-06-19 13:30:40: Starting web-setup.sh
+2025-06-19 13:30:40: web-setup.sh started successfully (PID: 661)
+2025-06-19 13:30:40: Starting sender.sh
+2025-06-19 13:30:40: sender.sh started successfully (PID: 674)
+2025-06-19 13:30:40: Starting receiver.sh
+2025-06-19 13:30:40: receiver.sh started successfully (PID: 686)
+2025-06-19 13:30:40: Starting mp4compiler.sh
+2025-06-19 13:30:40: mp4compiler.sh started successfully (PID: 699)
+2025-06-19 13:30:40: All services started. Logs are in /home/vesah/Stream2Web/logs.
+2025-06-19 13:32:13: Script name: run.sh Base directory: /home/vesah/Stream2Web Scripts directory: /home/vesah/Stream2Web/scripts Log directory: /home/vesah/Stream2Web/logs Lock directory: /home/vesah/Stream2Web/tmp Lock file: /home/vesah/Stream2Web/tmp/run.lock Log file: /home/vesah/Stream2Web/logs/run.log
+2025-06-19 13:32:13: Stale lock detected. Removing...
+2025-06-19 13:32:13: Starting web-setup.sh
+2025-06-19 13:32:13: web-setup.sh started successfully (PID: 685)
+2025-06-19 13:32:13: Starting sender.sh
+2025-06-19 13:32:13: sender.sh started successfully (PID: 697)
+2025-06-19 13:32:13: Starting receiver.sh
+2025-06-19 13:32:13: receiver.sh started successfully (PID: 718)
+2025-06-19 13:32:13: Starting mp4compiler.sh
+2025-06-19 13:32:13: mp4compiler.sh started successfully (PID: 740)
+2025-06-19 13:32:13: All services started. Logs are in /home/vesah/Stream2Web/logs.
+2025-06-19 13:37:11: Script name: run.sh Base directory: /home/vesah/Stream2Web Scripts directory: /home/vesah/Stream2Web/scripts Log directory: /home/vesah/Stream2Web/logs Lock directory: /home/vesah/Stream2Web/tmp Lock file: /home/vesah/Stream2Web/tmp/run.lock Log file: /home/vesah/Stream2Web/logs/run.log
+2025-06-19 13:37:11: Stale lock detected. Removing...
+2025-06-19 13:37:12: Starting web-setup.sh
+2025-06-19 13:37:12: web-setup.sh started successfully (PID: 689)
+2025-06-19 13:37:12: Starting sender.sh
+2025-06-19 13:37:12: sender.sh started successfully (PID: 710)
+2025-06-19 13:37:12: Starting receiver.sh
+2025-06-19 13:37:12: receiver.sh started successfully (PID: 732)
+2025-06-19 13:37:12: Starting mp4compiler.sh
+2025-06-19 13:37:12: mp4compiler.sh started successfully (PID: 754)
+2025-06-19 13:37:12: All services started. Logs are in /home/vesah/Stream2Web/logs.
+2025-06-19 13:54:49: Script name: run.sh Base directory: /home/vesah/Stream2Web Scripts directory: /home/vesah/Stream2Web/scripts Log directory: /home/vesah/Stream2Web/logs Lock directory: /home/vesah/Stream2Web/tmp Lock file: /home/vesah/Stream2Web/tmp/run.lock Log file: /home/vesah/Stream2Web/logs/run.log
+2025-06-19 13:54:49: Stale lock detected. Removing...
+2025-06-19 13:54:49: Starting web-setup.sh
+2025-06-19 13:54:49: web-setup.sh started successfully (PID: 691)
+2025-06-19 13:54:49: Starting sender.sh
+2025-06-19 13:54:49: sender.sh started successfully (PID: 711)
+2025-06-19 13:54:49: Starting receiver.sh
+2025-06-19 13:54:49: receiver.sh started successfully (PID: 722)
+2025-06-19 13:54:50: Starting mp4compiler.sh
+2025-06-19 13:54:50: mp4compiler.sh started successfully (PID: 731)
+2025-06-19 13:54:50: All services started. Logs are in /home/vesah/Stream2Web/logs.
+2025-06-19 14:10:54: Script name: run.sh Base directory: /home/vesah/Stream2Web Scripts directory: /home/vesah/Stream2Web/scripts Log directory: /home/vesah/Stream2Web/logs Lock directory: /home/vesah/Stream2Web/tmp Lock file: /home/vesah/Stream2Web/tmp/run.lock Log file: /home/vesah/Stream2Web/logs/run.log
+2025-06-19 14:10:54: Stale lock detected. Removing...
+2025-06-19 14:10:54: Starting web-setup.sh
+2025-06-19 14:10:54: web-setup.sh started successfully (PID: 680)
+2025-06-19 14:10:54: Starting sender.sh
+2025-06-19 14:10:54: sender.sh started successfully (PID: 695)
+2025-06-19 14:10:54: Starting receiver.sh
+2025-06-19 14:10:54: receiver.sh started successfully (PID: 705)
+2025-06-19 14:10:54: Starting mp4compiler.sh
+2025-06-19 14:10:54: mp4compiler.sh started successfully (PID: 736)
+2025-06-19 14:10:54: All services started. Logs are in /home/vesah/Stream2Web/logs.
+2025-06-19 17:08:30: Script name: run.sh Base directory: /home/vesah/Stream2Web Scripts directory: /home/vesah/Stream2Web/scripts Log directory: /home/vesah/Stream2Web/logs Lock directory: /home/vesah/Stream2Web/tmp Lock file: /home/vesah/Stream2Web/tmp/run.lock Log file: /home/vesah/Stream2Web/logs/run.log
+2025-06-19 17:08:31: Stale lock detected. Removing...
+2025-06-19 17:08:31: Starting web-setup.sh
+2025-06-19 17:08:31: web-setup.sh started successfully (PID: 676)
+2025-06-19 17:08:31: Starting sender.sh
+2025-06-19 17:08:31: sender.sh started successfully (PID: 689)
+2025-06-19 17:08:31: Starting receiver.sh
+2025-06-19 17:08:31: receiver.sh started successfully (PID: 705)
+2025-06-19 17:08:31: Starting mp4compiler.sh
+2025-06-19 17:08:32: mp4compiler.sh started successfully (PID: 744)
+2025-06-19 17:08:32: All services started. Logs are in /home/vesah/Stream2Web/logs.

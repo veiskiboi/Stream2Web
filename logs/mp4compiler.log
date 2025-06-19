@@ -1,0 +1,1290 @@
+Log file: /home/vesah/Stream2Web/logs/mp4compiler.log
+2025-06-19 13:12:33: SEGMENTS_PER_FILE calculated as: 150
+2025-06-19 13:12:33: SEGMENTS_PER_FILE calculated as: 150
+2025-06-19 13:12:33: Cleaning up leftover .ts files in /var/www/html/stream
+2025-06-19 13:12:33: Cleaning up leftover .ts files in /var/www/html/stream
+2025-06-19 13:12:33: Clearing STATE_FILE to handle filename reuse
+2025-06-19 13:12:33: Clearing STATE_FILE to handle filename reuse
+2025-06-19 13:12:42: Detected event for file: output0.ts
+2025-06-19 13:12:42: Detected event for file: output0.ts
+2025-06-19 13:12:43: Unprocessed files: 1
+2025-06-19 13:12:43: Unprocessed files: 1
+2025-06-19 13:12:43: Not enough segments (1/150)
+2025-06-19 13:12:43: Not enough segments (1/150)
+2025-06-19 13:12:46: Detected event for file: output1.ts
+2025-06-19 13:12:46: Detected event for file: output1.ts
+2025-06-19 13:12:47: Unprocessed files: 2
+2025-06-19 13:12:47: Unprocessed files: 2
+2025-06-19 13:12:47: Not enough segments (2/150)
+2025-06-19 13:12:47: Not enough segments (2/150)
+2025-06-19 13:12:50: Detected event for file: output2.ts
+2025-06-19 13:12:50: Detected event for file: output2.ts
+2025-06-19 13:12:52: Unprocessed files: 3
+2025-06-19 13:12:52: Unprocessed files: 3
+2025-06-19 13:12:52: Not enough segments (3/150)
+2025-06-19 13:12:52: Not enough segments (3/150)
+2025-06-19 13:12:54: Detected event for file: output3.ts
+2025-06-19 13:12:54: Detected event for file: output3.ts
+2025-06-19 13:12:56: Unprocessed files: 4
+2025-06-19 13:12:56: Unprocessed files: 4
+2025-06-19 13:12:56: Not enough segments (4/150)
+2025-06-19 13:12:56: Not enough segments (4/150)
+2025-06-19 13:12:57: Detected event for file: output4.ts
+2025-06-19 13:12:57: Detected event for file: output4.ts
+2025-06-19 13:13:00: Unprocessed files: 5
+2025-06-19 13:13:00: Unprocessed files: 5
+2025-06-19 13:13:00: Not enough segments (5/150)
+2025-06-19 13:13:00: Not enough segments (5/150)
+2025-06-19 13:13:02: Detected event for file: output5.ts
+2025-06-19 13:13:02: Detected event for file: output5.ts
+2025-06-19 13:13:05: Unprocessed files: 6
+2025-06-19 13:13:05: Unprocessed files: 6
+2025-06-19 13:13:05: Not enough segments (6/150)
+2025-06-19 13:13:05: Not enough segments (6/150)
+2025-06-19 13:13:06: Detected event for file: output6.ts
+2025-06-19 13:13:06: Detected event for file: output6.ts
+2025-06-19 13:13:10: Unprocessed files: 7
+2025-06-19 13:13:10: Unprocessed files: 7
+2025-06-19 13:13:10: Not enough segments (7/150)
+2025-06-19 13:13:10: Not enough segments (7/150)
+2025-06-19 13:13:10: Detected event for file: output7.ts
+2025-06-19 13:13:10: Detected event for file: output7.ts
+2025-06-19 13:13:15: Unprocessed files: 8
+2025-06-19 13:13:15: Unprocessed files: 8
+2025-06-19 13:13:15: Not enough segments (8/150)
+2025-06-19 13:13:15: Not enough segments (8/150)
+2025-06-19 13:13:17: Detected event for file: output9.ts
+2025-06-19 13:13:17: Detected event for file: output9.ts
+2025-06-19 13:13:23: Unprocessed files: 10
+2025-06-19 13:13:23: Unprocessed files: 10
+2025-06-19 13:13:23: Not enough segments (10/150)
+2025-06-19 13:13:23: Not enough segments (10/150)
+2025-06-19 13:13:26: Detected event for file: output11.ts
+2025-06-19 13:13:26: Detected event for file: output11.ts
+2025-06-19 13:13:33: Unprocessed files: 12
+2025-06-19 13:13:33: Unprocessed files: 12
+2025-06-19 13:13:33: Not enough segments (12/150)
+2025-06-19 13:13:33: Not enough segments (12/150)
+2025-06-19 13:13:34: Detected event for file: output13.ts
+2025-06-19 13:13:34: Detected event for file: output13.ts
+2025-06-19 13:13:42: Unprocessed files: 14
+2025-06-19 13:13:42: Unprocessed files: 14
+2025-06-19 13:13:42: Not enough segments (14/150)
+2025-06-19 13:13:42: Not enough segments (14/150)
+2025-06-19 13:13:46: Detected event for file: output16.ts
+2025-06-19 13:13:46: Detected event for file: output16.ts
+2025-06-19 13:13:55: Cleanup complete. Lock file removed.
+2025-06-19 13:13:55: WARNING: Skipping corrupt or invalid file /var/www/html/stream/output16.ts
+2025-06-19 13:13:55: Skipping output16.ts: file is unstable or invalid
+2025-06-19 13:13:55: Unprocessed files: 16
+2025-06-19 13:13:55: Not enough segments (16/150)
+Log file: /home/vesah/Stream2Web/logs/mp4compiler.log
+2025-06-19 13:14:13: SEGMENTS_PER_FILE calculated as: 150
+2025-06-19 13:14:13: SEGMENTS_PER_FILE calculated as: 150
+2025-06-19 13:14:13: Cleaning up leftover .ts files in /var/www/html/stream
+2025-06-19 13:14:13: Cleaning up leftover .ts files in /var/www/html/stream
+2025-06-19 13:14:15: Clearing STATE_FILE to handle filename reuse
+2025-06-19 13:14:15: Clearing STATE_FILE to handle filename reuse
+2025-06-19 13:14:23: Detected event for file: output0.ts
+2025-06-19 13:14:23: Detected event for file: output0.ts
+2025-06-19 13:14:24: Unprocessed files: 1
+2025-06-19 13:14:24: Unprocessed files: 1
+2025-06-19 13:14:24: Not enough segments (1/150)
+2025-06-19 13:14:24: Not enough segments (1/150)
+2025-06-19 13:14:26: Detected event for file: output1.ts
+2025-06-19 13:14:26: Detected event for file: output1.ts
+2025-06-19 13:14:27: Unprocessed files: 2
+2025-06-19 13:14:27: Unprocessed files: 2
+2025-06-19 13:14:27: Not enough segments (2/150)
+2025-06-19 13:14:27: Not enough segments (2/150)
+2025-06-19 13:14:30: Detected event for file: output2.ts
+2025-06-19 13:14:30: Detected event for file: output2.ts
+2025-06-19 13:14:32: Unprocessed files: 3
+2025-06-19 13:14:32: Unprocessed files: 3
+2025-06-19 13:14:32: Not enough segments (3/150)
+2025-06-19 13:14:32: Not enough segments (3/150)
+2025-06-19 13:14:34: Detected event for file: output3.ts
+2025-06-19 13:14:34: Detected event for file: output3.ts
+2025-06-19 13:14:37: Unprocessed files: 4
+2025-06-19 13:14:37: Unprocessed files: 4
+2025-06-19 13:14:37: Not enough segments (4/150)
+2025-06-19 13:14:37: Not enough segments (4/150)
+2025-06-19 13:14:38: Detected event for file: output4.ts
+2025-06-19 13:14:38: Detected event for file: output4.ts
+Log file: /home/vesah/Stream2Web/logs/mp4compiler.log
+2025-06-19 13:15:05: SEGMENTS_PER_FILE calculated as: 150
+2025-06-19 13:15:05: SEGMENTS_PER_FILE calculated as: 150
+2025-06-19 13:15:05: Cleaning up leftover .ts files in /var/www/html/stream
+2025-06-19 13:15:05: Cleaning up leftover .ts files in /var/www/html/stream
+2025-06-19 13:15:05: Clearing STATE_FILE to handle filename reuse
+2025-06-19 13:15:05: Clearing STATE_FILE to handle filename reuse
+2025-06-19 13:15:15: Detected event for file: output0.ts
+2025-06-19 13:15:15: Detected event for file: output0.ts
+2025-06-19 13:15:16: Unprocessed files: 1
+2025-06-19 13:15:16: Unprocessed files: 1
+2025-06-19 13:15:16: Not enough segments (1/150)
+2025-06-19 13:15:16: Not enough segments (1/150)
+2025-06-19 13:15:18: Detected event for file: output1.ts
+2025-06-19 13:15:18: Detected event for file: output1.ts
+2025-06-19 13:15:20: Unprocessed files: 2
+2025-06-19 13:15:20: Unprocessed files: 2
+2025-06-19 13:15:20: Not enough segments (2/150)
+2025-06-19 13:15:20: Not enough segments (2/150)
+2025-06-19 13:15:23: Detected event for file: output2.ts
+2025-06-19 13:15:23: Detected event for file: output2.ts
+2025-06-19 13:15:24: Unprocessed files: 3
+2025-06-19 13:15:24: Unprocessed files: 3
+2025-06-19 13:15:24: Not enough segments (3/150)
+2025-06-19 13:15:24: Not enough segments (3/150)
+2025-06-19 13:15:27: Detected event for file: output3.ts
+2025-06-19 13:15:27: Detected event for file: output3.ts
+2025-06-19 13:15:29: Unprocessed files: 4
+2025-06-19 13:15:29: Unprocessed files: 4
+2025-06-19 13:15:29: Not enough segments (4/150)
+2025-06-19 13:15:29: Not enough segments (4/150)
+2025-06-19 13:15:30: Detected event for file: output4.ts
+2025-06-19 13:15:30: Detected event for file: output4.ts
+2025-06-19 13:15:33: Unprocessed files: 5
+2025-06-19 13:15:33: Unprocessed files: 5
+2025-06-19 13:15:33: Not enough segments (5/150)
+2025-06-19 13:15:33: Not enough segments (5/150)
+2025-06-19 13:15:34: Detected event for file: output5.ts
+2025-06-19 13:15:34: Detected event for file: output5.ts
+2025-06-19 13:15:38: Unprocessed files: 6
+2025-06-19 13:15:38: Unprocessed files: 6
+2025-06-19 13:15:38: Not enough segments (6/150)
+2025-06-19 13:15:38: Not enough segments (6/150)
+2025-06-19 13:15:38: Detected event for file: output6.ts
+2025-06-19 13:15:38: Detected event for file: output6.ts
+2025-06-19 13:15:42: Cleanup complete. Lock file removed.
+2025-06-19 13:15:42: WARNING: Skipping corrupt or invalid file /var/www/html/stream/output3.ts
+2025-06-19 13:15:42: Skipping output3.ts: file is unstable or invalid
+2025-06-19 13:15:43: Unprocessed files: 6
+2025-06-19 13:15:43: Not enough segments (6/150)
+Log file: /home/vesah/Stream2Web/logs/mp4compiler.log
+2025-06-19 13:16:00: SEGMENTS_PER_FILE calculated as: 150
+2025-06-19 13:16:00: SEGMENTS_PER_FILE calculated as: 150
+2025-06-19 13:16:01: Cleaning up leftover .ts files in /var/www/html/stream
+2025-06-19 13:16:01: Cleaning up leftover .ts files in /var/www/html/stream
+2025-06-19 13:16:02: Clearing STATE_FILE to handle filename reuse
+2025-06-19 13:16:02: Clearing STATE_FILE to handle filename reuse
+2025-06-19 13:16:18: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:16:18: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:17:05: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:17:05: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:17:16: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:17:16: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:17:27: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:17:27: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:17:38: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:17:38: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:17:49: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:17:49: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:18:00: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:18:00: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:18:11: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:18:11: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:18:22: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:18:22: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:18:33: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:18:33: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:18:35: Cleanup complete. Lock file removed.
+Log file: /home/vesah/Stream2Web/logs/mp4compiler.log
+2025-06-19 13:20:48: SEGMENTS_PER_FILE calculated as: 150
+2025-06-19 13:20:48: SEGMENTS_PER_FILE calculated as: 150
+2025-06-19 13:20:48: Clearing STATE_FILE to handle filename reuse
+2025-06-19 13:20:48: Clearing STATE_FILE to handle filename reuse
+2025-06-19 13:21:05: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:21:05: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:21:49: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:21:49: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:21:56: Detected event for file: output0.ts
+2025-06-19 13:21:56: Detected event for file: output0.ts
+2025-06-19 13:21:58: Unprocessed files: 1
+2025-06-19 13:21:58: Unprocessed files: 1
+2025-06-19 13:21:58: Not enough segments (1/150)
+2025-06-19 13:21:58: Not enough segments (1/150)
+2025-06-19 13:21:58: Detected event for file: output1.ts
+2025-06-19 13:21:58: Detected event for file: output1.ts
+2025-06-19 13:22:00: Unprocessed files: 2
+2025-06-19 13:22:00: Unprocessed files: 2
+2025-06-19 13:22:00: Not enough segments (2/150)
+2025-06-19 13:22:00: Not enough segments (2/150)
+2025-06-19 13:22:03: Detected event for file: output2.ts
+2025-06-19 13:22:03: Detected event for file: output2.ts
+2025-06-19 13:22:04: Unprocessed files: 3
+2025-06-19 13:22:04: Unprocessed files: 3
+2025-06-19 13:22:04: Not enough segments (3/150)
+2025-06-19 13:22:04: Not enough segments (3/150)
+2025-06-19 13:22:07: Detected event for file: output3.ts
+2025-06-19 13:22:07: Detected event for file: output3.ts
+2025-06-19 13:22:09: Unprocessed files: 4
+2025-06-19 13:22:09: Unprocessed files: 4
+2025-06-19 13:22:09: Not enough segments (4/150)
+2025-06-19 13:22:09: Not enough segments (4/150)
+2025-06-19 13:22:11: Detected event for file: output4.ts
+2025-06-19 13:22:11: Detected event for file: output4.ts
+2025-06-19 13:22:14: Unprocessed files: 5
+2025-06-19 13:22:14: Unprocessed files: 5
+2025-06-19 13:22:14: Not enough segments (5/150)
+2025-06-19 13:22:14: Not enough segments (5/150)
+2025-06-19 13:22:15: Detected event for file: output5.ts
+2025-06-19 13:22:15: Detected event for file: output5.ts
+2025-06-19 13:22:19: Unprocessed files: 6
+2025-06-19 13:22:19: Unprocessed files: 6
+2025-06-19 13:22:19: Not enough segments (6/150)
+2025-06-19 13:22:19: Not enough segments (6/150)
+2025-06-19 13:22:23: Detected event for file: output7.ts
+2025-06-19 13:22:23: Detected event for file: output7.ts
+2025-06-19 13:22:29: Unprocessed files: 8
+2025-06-19 13:22:29: Unprocessed files: 8
+2025-06-19 13:22:29: Not enough segments (8/150)
+2025-06-19 13:22:29: Not enough segments (8/150)
+2025-06-19 13:22:31: Detected event for file: output9.ts
+2025-06-19 13:22:31: Detected event for file: output9.ts
+2025-06-19 13:22:37: Unprocessed files: 10
+2025-06-19 13:22:37: Unprocessed files: 10
+2025-06-19 13:22:37: Not enough segments (10/150)
+2025-06-19 13:22:37: Not enough segments (10/150)
+2025-06-19 13:22:38: Detected event for file: output11.ts
+2025-06-19 13:22:38: Detected event for file: output11.ts
+2025-06-19 13:22:54: Unprocessed files: 12
+2025-06-19 13:22:54: Unprocessed files: 12
+2025-06-19 13:22:54: Not enough segments (12/150)
+2025-06-19 13:22:54: Not enough segments (12/150)
+2025-06-19 13:22:55: Detected event for file: output15.ts
+2025-06-19 13:22:55: Detected event for file: output15.ts
+2025-06-19 13:23:04: Unprocessed files: 16
+2025-06-19 13:23:04: Unprocessed files: 16
+2025-06-19 13:23:04: Not enough segments (16/150)
+2025-06-19 13:23:04: Not enough segments (16/150)
+2025-06-19 13:23:07: Detected event for file: output18.ts
+2025-06-19 13:23:07: Detected event for file: output18.ts
+2025-06-19 13:23:18: Unprocessed files: 19
+2025-06-19 13:23:18: Unprocessed files: 19
+2025-06-19 13:23:18: Not enough segments (19/150)
+2025-06-19 13:23:18: Not enough segments (19/150)
+2025-06-19 13:23:19: Detected event for file: output21.ts
+2025-06-19 13:23:19: Detected event for file: output21.ts
+2025-06-19 13:23:32: Unprocessed files: 22
+2025-06-19 13:23:32: Unprocessed files: 22
+2025-06-19 13:23:32: Not enough segments (22/150)
+2025-06-19 13:23:32: Not enough segments (22/150)
+2025-06-19 13:23:35: Detected event for file: output25.ts
+2025-06-19 13:23:35: Detected event for file: output25.ts
+                                                                                                                                                                                                                                                                                                              Log file: /home/vesah/Stream2Web/logs/mp4compiler.log
+2025-06-19 13:23:26: Stale lock detected. Removing...
+2025-06-19 13:23:26: Stale lock detected. Removing...
+2025-06-19 13:23:26: SEGMENTS_PER_FILE calculated as: 150
+2025-06-19 13:23:26: SEGMENTS_PER_FILE calculated as: 150
+2025-06-19 13:23:27: Cleaning up leftover .ts files in /var/www/html/stream
+2025-06-19 13:23:27: Cleaning up leftover .ts files in /var/www/html/stream
+2025-06-19 13:23:27: Clearing STATE_FILE to handle filename reuse
+2025-06-19 13:23:27: Clearing STATE_FILE to handle filename reuse
+2025-06-19 13:23:43: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:23:43: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:23:54: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:23:54: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:25:28: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:25:28: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:25:39: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:25:39: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:25:50: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:25:50: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:26:01: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:26:01: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:26:12: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:26:12: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:26:23: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:26:23: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:26:34: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:26:34: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:26:45: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:26:45: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:26:56: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:26:56: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:27:07: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:27:07: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:27:18: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:27:18: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:27:29: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:27:29: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:27:40: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:27:40: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:27:51: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:27:51: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:28:02: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:28:02: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:28:13: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:28:13: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:28:24: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:28:24: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:28:36: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:28:36: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:28:47: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:28:47: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:28:58: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:28:58: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:29:09: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:29:09: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:29:20: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:29:20: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:29:31: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:29:31: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:29:42: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:29:42: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:29:53: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:29:53: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:30:04: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:30:04: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:30:15: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:30:15: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:30:20: Cleanup complete. Lock file removed.
+Log file: /home/vesah/Stream2Web/logs/mp4compiler.log
+2025-06-19 13:30:40: SEGMENTS_PER_FILE calculated as: 150
+2025-06-19 13:30:40: SEGMENTS_PER_FILE calculated as: 150
+2025-06-19 13:30:42: Clearing STATE_FILE to handle filename reuse
+2025-06-19 13:30:42: Clearing STATE_FILE to handle filename reuse
+2025-06-19 13:30:58: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:30:58: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:31:46: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:31:46: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:31:54: Detected event for file: output0.ts
+2025-06-19 13:31:54: Detected event for file: output0.ts
+2025-06-19 13:31:54: Unprocessed files: 1
+2025-06-19 13:31:54: Unprocessed files: 1
+2025-06-19 13:31:54: Not enough segments (1/150)
+2025-06-19 13:31:54: Not enough segments (1/150)
+2025-06-19 13:31:56: Detected event for file: output1.ts
+2025-06-19 13:31:56: Detected event for file: output1.ts
+2025-06-19 13:31:57: Unprocessed files: 2
+2025-06-19 13:31:57: Unprocessed files: 2
+2025-06-19 13:31:57: Not enough segments (2/150)
+2025-06-19 13:31:57: Not enough segments (2/150)
+2025-06-19 13:32:00: Detected event for file: output2.ts
+2025-06-19 13:32:00: Detected event for file: output2.ts
+2025-06-19 13:32:02: Unprocessed files: 3
+2025-06-19 13:32:02: Unprocessed files: 3
+2025-06-19 13:32:02: Not enough segments (3/150)
+2025-06-19 13:32:02: Not enough segments (3/150)
+2025-06-19 13:32:03: Detected event for file: output3.ts
+2025-06-19 13:32:03: Detected event for file: output3.ts
+2025-06-19 13:32:06: Unprocessed files: 4
+2025-06-19 13:32:06: Unprocessed files: 4
+2025-06-19 13:32:06: Not enough segments (4/150)
+2025-06-19 13:32:06: Not enough segments (4/150)
+2025-06-19 13:32:08: Detected event for file: output4.ts
+2025-06-19 13:32:08: Detected event for file: output4.ts
+2025-06-19 13:32:11: Unprocessed files: 5
+2025-06-19 13:32:11: Unprocessed files: 5
+2025-06-19 13:32:11: Not enough segments (5/150)
+2025-06-19 13:32:11: Not enough segments (5/150)
+2025-06-19 13:32:12: Detected event for file: output5.ts
+2025-06-19 13:32:12: Detected event for file: output5.ts
+2025-06-19 13:32:16: Unprocessed files: 6
+2025-06-19 13:32:16: Unprocessed files: 6
+2025-06-19 13:32:16: Not enough segments (6/150)
+2025-06-19 13:32:16: Not enough segments (6/150)
+2025-06-19 13:32:16: Detected event for file: output6.ts
+2025-06-19 13:32:16: Detected event for file: output6.ts
+2025-06-19 13:32:20: Unprocessed files: 7
+2025-06-19 13:32:20: Unprocessed files: 7
+2025-06-19 13:32:20: Not enough segments (7/150)
+2025-06-19 13:32:20: Not enough segments (7/150)
+2025-06-19 13:32:23: Detected event for file: output8.ts
+2025-06-19 13:32:23: Detected event for file: output8.ts
+2025-06-19 13:32:29: Unprocessed files: 9
+2025-06-19 13:32:29: Unprocessed files: 9
+2025-06-19 13:32:29: Not enough segments (9/150)
+2025-06-19 13:32:29: Not enough segments (9/150)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Log file: /home/vesah/Stream2Web/logs/mp4compiler.log
+2025-06-19 13:32:14: Stale lock detected. Removing...
+2025-06-19 13:32:14: Stale lock detected. Removing...
+2025-06-19 13:32:14: SEGMENTS_PER_FILE calculated as: 150
+2025-06-19 13:32:14: SEGMENTS_PER_FILE calculated as: 150
+2025-06-19 13:32:14: Cleaning up leftover .ts files in /var/www/html/stream
+2025-06-19 13:32:14: Cleaning up leftover .ts files in /var/www/html/stream
+2025-06-19 13:32:14: Clearing STATE_FILE to handle filename reuse
+2025-06-19 13:32:14: Clearing STATE_FILE to handle filename reuse
+2025-06-19 13:32:30: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:32:30: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:34:20: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:34:20: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:34:38: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:34:38: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:34:40: Detected event for file: output0.ts
+2025-06-19 13:34:40: Detected event for file: output0.ts
+2025-06-19 13:34:41: Unprocessed files: 1
+2025-06-19 13:34:41: Unprocessed files: 1
+2025-06-19 13:34:41: Not enough segments (1/150)
+2025-06-19 13:34:41: Not enough segments (1/150)
+2025-06-19 13:34:43: Detected event for file: output1.ts
+2025-06-19 13:34:43: Detected event for file: output1.ts
+2025-06-19 13:34:45: Unprocessed files: 2
+2025-06-19 13:34:45: Unprocessed files: 2
+2025-06-19 13:34:45: Not enough segments (2/150)
+2025-06-19 13:34:45: Not enough segments (2/150)
+2025-06-19 13:34:48: Detected event for file: output2.ts
+2025-06-19 13:34:48: Detected event for file: output2.ts
+2025-06-19 13:34:49: Unprocessed files: 3
+2025-06-19 13:34:49: Unprocessed files: 3
+2025-06-19 13:34:49: Not enough segments (3/150)
+2025-06-19 13:34:49: Not enough segments (3/150)
+2025-06-19 13:34:51: Detected event for file: output3.ts
+2025-06-19 13:34:51: Detected event for file: output3.ts
+2025-06-19 13:34:53: Unprocessed files: 4
+2025-06-19 13:34:53: Unprocessed files: 4
+2025-06-19 13:34:53: Not enough segments (4/150)
+2025-06-19 13:34:53: Not enough segments (4/150)
+2025-06-19 13:34:55: Detected event for file: output4.ts
+2025-06-19 13:34:55: Detected event for file: output4.ts
+2025-06-19 13:34:58: Unprocessed files: 5
+2025-06-19 13:34:58: Unprocessed files: 5
+2025-06-19 13:34:58: Not enough segments (5/150)
+2025-06-19 13:34:58: Not enough segments (5/150)
+2025-06-19 13:35:00: Detected event for file: output5.ts
+2025-06-19 13:35:00: Detected event for file: output5.ts
+2025-06-19 13:35:04: Unprocessed files: 6
+2025-06-19 13:35:04: Unprocessed files: 6
+2025-06-19 13:35:04: Not enough segments (6/150)
+2025-06-19 13:35:04: Not enough segments (6/150)
+2025-06-19 13:35:09: Detected event for file: output7.ts
+2025-06-19 13:35:09: Detected event for file: output7.ts
+2025-06-19 13:35:14: Unprocessed files: 8
+2025-06-19 13:35:14: Unprocessed files: 8
+2025-06-19 13:35:14: Not enough segments (8/150)
+2025-06-19 13:35:14: Not enough segments (8/150)
+2025-06-19 13:35:15: Detected event for file: output9.ts
+2025-06-19 13:35:15: Detected event for file: output9.ts
+2025-06-19 13:35:21: Unprocessed files: 10
+2025-06-19 13:35:21: Unprocessed files: 10
+2025-06-19 13:35:21: Not enough segments (10/150)
+2025-06-19 13:35:21: Not enough segments (10/150)
+2025-06-19 13:35:23: Detected event for file: output11.ts
+2025-06-19 13:35:23: Detected event for file: output11.ts
+2025-06-19 13:35:31: Unprocessed files: 12
+2025-06-19 13:35:31: Unprocessed files: 12
+2025-06-19 13:35:31: Not enough segments (12/150)
+2025-06-19 13:35:31: Not enough segments (12/150)
+2025-06-19 13:35:32: Detected event for file: output13.ts
+2025-06-19 13:35:32: Detected event for file: output13.ts
+2025-06-19 13:35:40: Unprocessed files: 14
+2025-06-19 13:35:40: Unprocessed files: 14
+2025-06-19 13:35:49: Not enough segments (14/150)
+2025-06-19 13:35:49: Not enough segments (14/150)
+2025-06-19 13:35:51: Detected event for file: output15.ts
+2025-06-19 13:35:51: Detected event for file: output15.ts
+2025-06-19 13:36:01: Unprocessed files: 16
+2025-06-19 13:36:01: Unprocessed files: 16
+2025-06-19 13:36:01: Not enough segments (16/150)
+2025-06-19 13:36:01: Not enough segments (16/150)
+2025-06-19 13:36:03: Detected event for file: output18.ts
+2025-06-19 13:36:03: Detected event for file: output18.ts
+2025-06-19 13:36:15: Unprocessed files: 19
+2025-06-19 13:36:15: Unprocessed files: 19
+2025-06-19 13:36:15: Not enough segments (19/150)
+2025-06-19 13:36:15: Not enough segments (19/150)
+2025-06-19 13:36:16: Detected event for file: output21.ts
+2025-06-19 13:36:16: Detected event for file: output21.ts
+2025-06-19 13:36:29: Unprocessed files: 22
+2025-06-19 13:36:29: Unprocessed files: 22
+2025-06-19 13:36:29: Not enough segments (22/150)
+2025-06-19 13:36:29: Not enough segments (22/150)
+2025-06-19 13:36:32: Detected event for file: output25.ts
+2025-06-19 13:36:32: Detected event for file: output25.ts
+2025-06-19 13:36:48: Unprocessed files: 26
+2025-06-19 13:36:48: Unprocessed files: 26
+2025-06-19 13:36:48: Not enough segments (26/150)
+2025-06-19 13:36:48: Not enough segments (26/150)
+2025-06-19 13:36:52: Detected event for file: output30.ts
+2025-06-19 13:36:52: Detected event for file: output30.ts
+                                                                                                                                                                                                                                                                                                              Log file: /home/vesah/Stream2Web/logs/mp4compiler.log
+2025-06-19 13:37:12: Stale lock detected. Removing...
+2025-06-19 13:37:12: Stale lock detected. Removing...
+2025-06-19 13:37:12: SEGMENTS_PER_FILE calculated as: 150
+2025-06-19 13:37:12: SEGMENTS_PER_FILE calculated as: 150
+2025-06-19 13:37:12: Cleaning up leftover .ts files in /var/www/html/stream
+2025-06-19 13:37:12: Cleaning up leftover .ts files in /var/www/html/stream
+2025-06-19 13:37:12: Clearing STATE_FILE to handle filename reuse
+2025-06-19 13:37:12: Clearing STATE_FILE to handle filename reuse
+2025-06-19 13:37:32: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:37:32: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:37:43: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:37:43: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:37:49: Detected event for file: output0.ts
+2025-06-19 13:37:49: Detected event for file: output0.ts
+2025-06-19 13:37:52: Unprocessed files: 1
+2025-06-19 13:37:52: Unprocessed files: 1
+2025-06-19 13:37:52: Not enough segments (1/150)
+2025-06-19 13:37:52: Not enough segments (1/150)
+2025-06-19 13:37:52: Detected event for file: output1.ts
+2025-06-19 13:37:52: Detected event for file: output1.ts
+2025-06-19 13:37:55: Unprocessed files: 2
+2025-06-19 13:37:55: Unprocessed files: 2
+2025-06-19 13:37:55: Not enough segments (2/150)
+2025-06-19 13:37:55: Not enough segments (2/150)
+2025-06-19 13:37:56: Detected event for file: output2.ts
+2025-06-19 13:37:56: Detected event for file: output2.ts
+2025-06-19 13:38:01: Unprocessed files: 3
+2025-06-19 13:38:01: Unprocessed files: 3
+2025-06-19 13:38:01: Not enough segments (3/150)
+2025-06-19 13:38:01: Not enough segments (3/150)
+2025-06-19 13:38:03: Detected event for file: output4.ts
+2025-06-19 13:38:03: Detected event for file: output4.ts
+2025-06-19 13:38:10: Unprocessed files: 5
+2025-06-19 13:38:10: Unprocessed files: 5
+2025-06-19 13:38:10: Not enough segments (5/150)
+2025-06-19 13:38:10: Not enough segments (5/150)
+2025-06-19 13:38:12: Detected event for file: output6.ts
+2025-06-19 13:38:12: Detected event for file: output6.ts
+2025-06-19 13:38:22: Unprocessed files: 7
+2025-06-19 13:38:22: Unprocessed files: 7
+2025-06-19 13:38:23: Not enough segments (7/150)
+2025-06-19 13:38:23: Not enough segments (7/150)
+2025-06-19 13:38:24: Detected event for file: output8.ts
+2025-06-19 13:38:24: Detected event for file: output8.ts
+2025-06-19 13:38:37: Unprocessed files: 9
+2025-06-19 13:38:37: Unprocessed files: 9
+2025-06-19 13:38:37: Not enough segments (9/150)
+2025-06-19 13:38:37: Not enough segments (9/150)
+2025-06-19 13:38:39: Detected event for file: output13.ts
+2025-06-19 13:38:39: Detected event for file: output13.ts
+2025-06-19 13:39:00: Unprocessed files: 14
+2025-06-19 13:39:00: Unprocessed files: 14
+2025-06-19 13:39:00: Not enough segments (14/150)
+2025-06-19 13:39:00: Not enough segments (14/150)
+2025-06-19 13:39:00: Detected event for file: output18.ts
+2025-06-19 13:39:00: Detected event for file: output18.ts
+2025-06-19 13:39:29: Unprocessed files: 19
+2025-06-19 13:39:29: Unprocessed files: 19
+2025-06-19 13:39:29: Not enough segments (19/150)
+2025-06-19 13:39:29: Not enough segments (19/150)
+2025-06-19 13:39:29: Detected event for file: output25.ts
+2025-06-19 13:39:29: Detected event for file: output25.ts
+2025-06-19 13:40:08: Unprocessed files: 26
+2025-06-19 13:40:08: Unprocessed files: 26
+2025-06-19 13:40:08: Not enough segments (26/150)
+2025-06-19 13:40:08: Not enough segments (26/150)
+2025-06-19 13:40:08: Detected event for file: output35.ts
+2025-06-19 13:40:08: Detected event for file: output35.ts
+2025-06-19 13:41:03: Unprocessed files: 36
+2025-06-19 13:41:03: Unprocessed files: 36
+2025-06-19 13:41:03: Not enough segments (36/150)
+2025-06-19 13:41:03: Not enough segments (36/150)
+2025-06-19 13:41:04: Detected event for file: output49.ts
+2025-06-19 13:41:04: Detected event for file: output49.ts
+2025-06-19 13:42:20: Unprocessed files: 50
+2025-06-19 13:42:20: Unprocessed files: 50
+2025-06-19 13:42:20: Not enough segments (50/150)
+2025-06-19 13:42:20: Not enough segments (50/150)
+2025-06-19 13:42:20: Detected event for file: output68.ts
+2025-06-19 13:42:20: Detected event for file: output68.ts
+2025-06-19 13:44:03: Unprocessed files: 69
+2025-06-19 13:44:03: Unprocessed files: 69
+2025-06-19 13:44:03: Not enough segments (69/150)
+2025-06-19 13:44:03: Not enough segments (69/150)
+2025-06-19 13:44:05: Detected event for file: output94.ts
+2025-06-19 13:44:05: Detected event for file: output94.ts
+2025-06-19 13:46:21: Unprocessed files: 95
+2025-06-19 13:46:21: Unprocessed files: 95
+2025-06-19 13:46:21: Not enough segments (95/150)
+2025-06-19 13:46:21: Not enough segments (95/150)
+2025-06-19 13:46:23: Detected event for file: output129.ts
+2025-06-19 13:46:23: Detected event for file: output129.ts
+2025-06-19 13:49:32: Unprocessed files: 130
+2025-06-19 13:49:32: Unprocessed files: 130
+2025-06-19 13:49:32: Not enough segments (130/150)
+2025-06-19 13:49:32: Not enough segments (130/150)
+2025-06-19 13:49:35: Detected event for file: output177.ts
+2025-06-19 13:49:35: Detected event for file: output177.ts
+2025-06-19 13:53:56: Unprocessed files: 178
+2025-06-19 13:53:56: Unprocessed files: 178
+2025-06-19 13:53:56: Creating MP4 from segments 1 to 150 → /var/www/html/archive/stream_20250619_135356.mp4
+2025-06-19 13:53:56: Creating MP4 from segments 1 to 150 → /var/www/html/archive/stream_20250619_135356.mp4
+2025-06-19 13:54:18: Deleted processed file output0.ts
+2025-06-19 13:54:18: Deleted processed file output0.ts
+2025-06-19 13:54:18: Deleted processed file output1.ts
+2025-06-19 13:54:18: Deleted processed file output1.ts
+2025-06-19 13:54:18: Deleted processed file output2.ts
+2025-06-19 13:54:18: Deleted processed file output2.ts
+2025-06-19 13:54:18: Deleted processed file output3.ts
+2025-06-19 13:54:18: Deleted processed file output3.ts
+2025-06-19 13:54:18: Deleted processed file output4.ts
+2025-06-19 13:54:18: Deleted processed file output4.ts
+2025-06-19 13:54:18: Deleted processed file output5.ts
+2025-06-19 13:54:18: Deleted processed file output5.ts
+2025-06-19 13:54:18: Deleted processed file output6.ts
+2025-06-19 13:54:18: Deleted processed file output6.ts
+2025-06-19 13:54:18: Deleted processed file output7.ts
+2025-06-19 13:54:18: Deleted processed file output7.ts
+2025-06-19 13:54:18: Deleted processed file output8.ts
+2025-06-19 13:54:18: Deleted processed file output8.ts
+2025-06-19 13:54:18: Deleted processed file output9.ts
+2025-06-19 13:54:18: Deleted processed file output9.ts
+2025-06-19 13:54:18: Deleted processed file output10.ts
+2025-06-19 13:54:18: Deleted processed file output10.ts
+2025-06-19 13:54:19: Deleted processed file output11.ts
+2025-06-19 13:54:19: Deleted processed file output11.ts
+2025-06-19 13:54:19: Deleted processed file output12.ts
+2025-06-19 13:54:19: Deleted processed file output12.ts
+2025-06-19 13:54:19: Deleted processed file output13.ts
+2025-06-19 13:54:19: Deleted processed file output13.ts
+2025-06-19 13:54:19: Deleted processed file output14.ts
+2025-06-19 13:54:19: Deleted processed file output14.ts
+2025-06-19 13:54:19: Deleted processed file output15.ts
+2025-06-19 13:54:19: Deleted processed file output15.ts
+2025-06-19 13:54:19: Deleted processed file output16.ts
+2025-06-19 13:54:19: Deleted processed file output16.ts
+2025-06-19 13:54:19: Deleted processed file output17.ts
+2025-06-19 13:54:19: Deleted processed file output17.ts
+2025-06-19 13:54:19: Deleted processed file output18.ts
+2025-06-19 13:54:19: Deleted processed file output18.ts
+2025-06-19 13:54:19: Deleted processed file output19.ts
+2025-06-19 13:54:19: Deleted processed file output19.ts
+2025-06-19 13:54:19: Deleted processed file output20.ts
+2025-06-19 13:54:19: Deleted processed file output20.ts
+2025-06-19 13:54:20: Deleted processed file output21.ts
+2025-06-19 13:54:20: Deleted processed file output21.ts
+2025-06-19 13:54:20: Deleted processed file output22.ts
+2025-06-19 13:54:20: Deleted processed file output22.ts
+2025-06-19 13:54:20: Deleted processed file output23.ts
+2025-06-19 13:54:20: Deleted processed file output23.ts
+2025-06-19 13:54:20: Deleted processed file output24.ts
+2025-06-19 13:54:20: Deleted processed file output24.ts
+2025-06-19 13:54:20: Deleted processed file output25.ts
+2025-06-19 13:54:20: Deleted processed file output25.ts
+2025-06-19 13:54:20: Deleted processed file output26.ts
+2025-06-19 13:54:20: Deleted processed file output26.ts
+2025-06-19 13:54:21: Deleted processed file output27.ts
+2025-06-19 13:54:21: Deleted processed file output27.ts
+2025-06-19 13:54:21: Deleted processed file output28.ts
+2025-06-19 13:54:21: Deleted processed file output28.ts
+2025-06-19 13:54:21: Deleted processed file output29.ts
+2025-06-19 13:54:21: Deleted processed file output29.ts
+2025-06-19 13:54:21: Deleted processed file output30.ts
+2025-06-19 13:54:21: Deleted processed file output30.ts
+2025-06-19 13:54:21: Deleted processed file output31.ts
+2025-06-19 13:54:21: Deleted processed file output31.ts
+2025-06-19 13:54:21: Deleted processed file output32.ts
+2025-06-19 13:54:21: Deleted processed file output32.ts
+2025-06-19 13:54:21: Deleted processed file output33.ts
+2025-06-19 13:54:21: Deleted processed file output33.ts
+2025-06-19 13:54:21: Deleted processed file output34.ts
+2025-06-19 13:54:21: Deleted processed file output34.ts
+2025-06-19 13:54:21: Deleted processed file output35.ts
+2025-06-19 13:54:21: Deleted processed file output35.ts
+2025-06-19 13:54:21: Deleted processed file output36.ts
+2025-06-19 13:54:21: Deleted processed file output36.ts
+2025-06-19 13:54:21: Deleted processed file output37.ts
+2025-06-19 13:54:21: Deleted processed file output37.ts
+2025-06-19 13:54:21: Deleted processed file output38.ts
+2025-06-19 13:54:21: Deleted processed file output38.ts
+2025-06-19 13:54:21: Deleted processed file output39.ts
+2025-06-19 13:54:21: Deleted processed file output39.ts
+2025-06-19 13:54:21: Deleted processed file output40.ts
+2025-06-19 13:54:21: Deleted processed file output40.ts
+2025-06-19 13:54:21: Deleted processed file output41.ts
+2025-06-19 13:54:21: Deleted processed file output41.ts
+2025-06-19 13:54:21: Deleted processed file output42.ts
+2025-06-19 13:54:21: Deleted processed file output42.ts
+2025-06-19 13:54:22: Deleted processed file output43.ts
+2025-06-19 13:54:22: Deleted processed file output43.ts
+2025-06-19 13:54:22: Deleted processed file output44.ts
+2025-06-19 13:54:22: Deleted processed file output44.ts
+2025-06-19 13:54:22: Deleted processed file output45.ts
+2025-06-19 13:54:22: Deleted processed file output45.ts
+2025-06-19 13:54:22: Deleted processed file output46.ts
+2025-06-19 13:54:22: Deleted processed file output46.ts
+2025-06-19 13:54:22: Deleted processed file output47.ts
+2025-06-19 13:54:22: Deleted processed file output47.ts
+2025-06-19 13:54:22: Deleted processed file output48.ts
+2025-06-19 13:54:22: Deleted processed file output48.ts
+2025-06-19 13:54:22: Deleted processed file output49.ts
+2025-06-19 13:54:22: Deleted processed file output49.ts
+2025-06-19 13:54:22: Deleted processed file output50.ts
+2025-06-19 13:54:22: Deleted processed file output50.ts
+2025-06-19 13:54:22: Deleted processed file output51.ts
+2025-06-19 13:54:22: Deleted processed file output51.ts
+2025-06-19 13:54:22: Deleted processed file output52.ts
+2025-06-19 13:54:22: Deleted processed file output52.ts
+2025-06-19 13:54:22: Deleted processed file output53.ts
+2025-06-19 13:54:22: Deleted processed file output53.ts
+2025-06-19 13:54:22: Deleted processed file output54.ts
+2025-06-19 13:54:22: Deleted processed file output54.ts
+2025-06-19 13:54:22: Deleted processed file output55.ts
+2025-06-19 13:54:22: Deleted processed file output55.ts
+2025-06-19 13:54:22: Deleted processed file output56.ts
+2025-06-19 13:54:22: Deleted processed file output56.ts
+2025-06-19 13:54:22: Deleted processed file output57.ts
+2025-06-19 13:54:22: Deleted processed file output57.ts
+2025-06-19 13:54:22: Deleted processed file output58.ts
+2025-06-19 13:54:22: Deleted processed file output58.ts
+2025-06-19 13:54:23: Deleted processed file output59.ts
+2025-06-19 13:54:23: Deleted processed file output59.ts
+2025-06-19 13:54:23: Deleted processed file output60.ts
+2025-06-19 13:54:23: Deleted processed file output60.ts
+2025-06-19 13:54:23: Deleted processed file output61.ts
+2025-06-19 13:54:23: Deleted processed file output61.ts
+2025-06-19 13:54:23: Deleted processed file output62.ts
+2025-06-19 13:54:23: Deleted processed file output62.ts
+2025-06-19 13:54:23: Deleted processed file output63.ts
+2025-06-19 13:54:23: Deleted processed file output63.ts
+2025-06-19 13:54:23: Deleted processed file output64.ts
+2025-06-19 13:54:23: Deleted processed file output64.ts
+2025-06-19 13:54:23: Deleted processed file output65.ts
+2025-06-19 13:54:23: Deleted processed file output65.ts
+2025-06-19 13:54:23: Deleted processed file output66.ts
+2025-06-19 13:54:23: Deleted processed file output66.ts
+2025-06-19 13:54:23: Deleted processed file output67.ts
+2025-06-19 13:54:23: Deleted processed file output67.ts
+2025-06-19 13:54:23: Deleted processed file output68.ts
+2025-06-19 13:54:23: Deleted processed file output68.ts
+2025-06-19 13:54:23: Deleted processed file output69.ts
+2025-06-19 13:54:23: Deleted processed file output69.ts
+2025-06-19 13:54:23: Deleted processed file output70.ts
+2025-06-19 13:54:23: Deleted processed file output70.ts
+2025-06-19 13:54:23: Deleted processed file output71.ts
+2025-06-19 13:54:23: Deleted processed file output71.ts
+2025-06-19 13:54:23: Deleted processed file output72.ts
+2025-06-19 13:54:23: Deleted processed file output72.ts
+2025-06-19 13:54:23: Deleted processed file output73.ts
+2025-06-19 13:54:23: Deleted processed file output73.ts
+2025-06-19 13:54:23: Deleted processed file output74.ts
+2025-06-19 13:54:23: Deleted processed file output74.ts
+2025-06-19 13:54:23: Deleted processed file output75.ts
+2025-06-19 13:54:23: Deleted processed file output75.ts
+2025-06-19 13:54:23: Deleted processed file output76.ts
+2025-06-19 13:54:23: Deleted processed file output76.ts
+2025-06-19 13:54:24: Deleted processed file output77.ts
+2025-06-19 13:54:24: Deleted processed file output77.ts
+2025-06-19 13:54:24: Deleted processed file output78.ts
+2025-06-19 13:54:24: Deleted processed file output78.ts
+2025-06-19 13:54:24: Deleted processed file output79.ts
+2025-06-19 13:54:24: Deleted processed file output79.ts
+2025-06-19 13:54:24: Deleted processed file output80.ts
+2025-06-19 13:54:24: Deleted processed file output80.ts
+2025-06-19 13:54:24: Deleted processed file output81.ts
+2025-06-19 13:54:24: Deleted processed file output81.ts
+2025-06-19 13:54:24: Deleted processed file output82.ts
+2025-06-19 13:54:24: Deleted processed file output82.ts
+2025-06-19 13:54:24: Deleted processed file output83.ts
+2025-06-19 13:54:24: Deleted processed file output83.ts
+2025-06-19 13:54:24: Deleted processed file output84.ts
+2025-06-19 13:54:24: Deleted processed file output84.ts
+2025-06-19 13:54:24: Deleted processed file output85.ts
+2025-06-19 13:54:24: Deleted processed file output85.ts
+2025-06-19 13:54:24: Deleted processed file output86.ts
+2025-06-19 13:54:24: Deleted processed file output86.ts
+2025-06-19 13:54:26: Deleted processed file output87.ts
+2025-06-19 13:54:26: Deleted processed file output87.ts
+2025-06-19 13:54:26: Deleted processed file output88.ts
+2025-06-19 13:54:26: Deleted processed file output88.ts
+2025-06-19 13:54:26: Deleted processed file output89.ts
+2025-06-19 13:54:26: Deleted processed file output89.ts
+2025-06-19 13:54:26: Deleted processed file output90.ts
+2025-06-19 13:54:26: Deleted processed file output90.ts
+2025-06-19 13:54:26: Deleted processed file output91.ts
+2025-06-19 13:54:26: Deleted processed file output91.ts
+2025-06-19 13:54:26: Deleted processed file output92.ts
+2025-06-19 13:54:26: Deleted processed file output92.ts
+2025-06-19 13:54:26: Deleted processed file output93.ts
+2025-06-19 13:54:26: Deleted processed file output93.ts
+2025-06-19 13:54:26: Deleted processed file output94.ts
+2025-06-19 13:54:26: Deleted processed file output94.ts
+2025-06-19 13:54:26: Deleted processed file output95.ts
+2025-06-19 13:54:26: Deleted processed file output95.ts
+2025-06-19 13:54:26: Deleted processed file output96.ts
+2025-06-19 13:54:26: Deleted processed file output96.ts
+2025-06-19 13:54:26: Deleted processed file output97.ts
+2025-06-19 13:54:26: Deleted processed file output97.ts
+2025-06-19 13:54:27: Deleted processed file output98.ts
+2025-06-19 13:54:27: Deleted processed file output98.ts
+2025-06-19 13:54:27: Deleted processed file output99.ts
+2025-06-19 13:54:27: Deleted processed file output99.ts
+2025-06-19 13:54:27: Deleted processed file output100.ts
+2025-06-19 13:54:27: Deleted processed file output100.ts
+2025-06-19 13:54:27: Deleted processed file output101.ts
+2025-06-19 13:54:27: Deleted processed file output101.ts
+2025-06-19 13:54:27: Deleted processed file output102.ts
+2025-06-19 13:54:27: Deleted processed file output102.ts
+2025-06-19 13:54:27: Deleted processed file output103.ts
+2025-06-19 13:54:27: Deleted processed file output103.ts
+2025-06-19 13:54:27: Deleted processed file output104.ts
+2025-06-19 13:54:27: Deleted processed file output104.ts
+2025-06-19 13:54:27: Deleted processed file output105.ts
+2025-06-19 13:54:27: Deleted processed file output105.ts
+2025-06-19 13:54:27: Deleted processed file output106.ts
+2025-06-19 13:54:27: Deleted processed file output106.ts
+2025-06-19 13:54:27: Deleted processed file output107.ts
+2025-06-19 13:54:27: Deleted processed file output107.ts
+2025-06-19 13:54:27: Deleted processed file output108.ts
+2025-06-19 13:54:27: Deleted processed file output108.ts
+2025-06-19 13:54:27: Deleted processed file output109.ts
+2025-06-19 13:54:27: Deleted processed file output109.ts
+2025-06-19 13:54:27: Deleted processed file output110.ts
+2025-06-19 13:54:27: Deleted processed file output110.ts
+2025-06-19 13:54:27: Deleted processed file output111.ts
+2025-06-19 13:54:27: Deleted processed file output111.ts
+2025-06-19 13:54:27: Deleted processed file output112.ts
+2025-06-19 13:54:27: Deleted processed file output112.ts
+2025-06-19 13:54:27: Deleted processed file output113.ts
+2025-06-19 13:54:27: Deleted processed file output113.ts
+2025-06-19 13:54:27: Deleted processed file output114.ts
+2025-06-19 13:54:27: Deleted processed file output114.ts
+2025-06-19 13:54:28: Deleted processed file output115.ts
+2025-06-19 13:54:28: Deleted processed file output115.ts
+2025-06-19 13:54:28: Deleted processed file output116.ts
+2025-06-19 13:54:28: Deleted processed file output116.ts
+2025-06-19 13:54:28: Deleted processed file output117.ts
+2025-06-19 13:54:28: Deleted processed file output117.ts
+2025-06-19 13:54:28: Deleted processed file output118.ts
+2025-06-19 13:54:28: Deleted processed file output118.ts
+2025-06-19 13:54:28: Deleted processed file output119.ts
+2025-06-19 13:54:28: Deleted processed file output119.ts
+2025-06-19 13:54:28: Deleted processed file output120.ts
+2025-06-19 13:54:28: Deleted processed file output120.ts
+2025-06-19 13:54:28: Deleted processed file output121.ts
+2025-06-19 13:54:28: Deleted processed file output121.ts
+2025-06-19 13:54:28: Deleted processed file output122.ts
+2025-06-19 13:54:28: Deleted processed file output122.ts
+2025-06-19 13:54:28: Deleted processed file output123.ts
+2025-06-19 13:54:28: Deleted processed file output123.ts
+2025-06-19 13:54:28: Deleted processed file output124.ts
+2025-06-19 13:54:28: Deleted processed file output124.ts
+2025-06-19 13:54:28: Deleted processed file output125.ts
+2025-06-19 13:54:28: Deleted processed file output125.ts
+2025-06-19 13:54:28: Deleted processed file output126.ts
+2025-06-19 13:54:28: Deleted processed file output126.ts
+2025-06-19 13:54:28: Deleted processed file output127.ts
+2025-06-19 13:54:28: Deleted processed file output127.ts
+2025-06-19 13:54:28: Deleted processed file output128.ts
+2025-06-19 13:54:28: Deleted processed file output128.ts
+2025-06-19 13:54:28: Deleted processed file output129.ts
+2025-06-19 13:54:28: Deleted processed file output129.ts
+2025-06-19 13:54:28: Deleted processed file output130.ts
+2025-06-19 13:54:28: Deleted processed file output130.ts
+2025-06-19 13:54:28: Deleted processed file output131.ts
+2025-06-19 13:54:28: Deleted processed file output131.ts
+2025-06-19 13:54:28: Deleted processed file output132.ts
+2025-06-19 13:54:28: Deleted processed file output132.ts
+2025-06-19 13:54:28: Deleted processed file output133.ts
+2025-06-19 13:54:28: Deleted processed file output133.ts
+2025-06-19 13:54:28: Deleted processed file output134.ts
+2025-06-19 13:54:28: Deleted processed file output134.ts
+2025-06-19 13:54:29: Deleted processed file output135.ts
+2025-06-19 13:54:29: Deleted processed file output135.ts
+2025-06-19 13:54:29: Deleted processed file output136.ts
+2025-06-19 13:54:29: Deleted processed file output136.ts
+2025-06-19 13:54:29: Deleted processed file output137.ts
+2025-06-19 13:54:29: Deleted processed file output137.ts
+2025-06-19 13:54:29: Deleted processed file output138.ts
+2025-06-19 13:54:29: Deleted processed file output138.ts
+2025-06-19 13:54:29: Deleted processed file output139.ts
+2025-06-19 13:54:29: Deleted processed file output139.ts
+2025-06-19 13:54:29: Deleted processed file output140.ts
+2025-06-19 13:54:29: Deleted processed file output140.ts
+2025-06-19 13:54:29: Deleted processed file output141.ts
+2025-06-19 13:54:29: Deleted processed file output141.ts
+2025-06-19 13:54:29: Deleted processed file output142.ts
+2025-06-19 13:54:29: Deleted processed file output142.ts
+2025-06-19 13:54:29: Deleted processed file output143.ts
+2025-06-19 13:54:29: Deleted processed file output143.ts
+2025-06-19 13:54:29: Deleted processed file output144.ts
+2025-06-19 13:54:29: Deleted processed file output144.ts
+2025-06-19 13:54:35: Deleted processed file output145.ts
+2025-06-19 13:54:35: Deleted processed file output145.ts
+2025-06-19 13:54:35: Deleted processed file output146.ts
+2025-06-19 13:54:35: Deleted processed file output146.ts
+2025-06-19 13:54:35: Deleted processed file output147.ts
+2025-06-19 13:54:35: Deleted processed file output147.ts
+2025-06-19 13:54:35: Deleted processed file output148.ts
+2025-06-19 13:54:35: Deleted processed file output148.ts
+2025-06-19 13:54:35: Deleted processed file output149.ts
+2025-06-19 13:54:35: Deleted processed file output149.ts
+2025-06-19 13:54:35: Created /var/www/html/archive/stream_20250619_135356.mp4 and cleaned up processed .ts files
+2025-06-19 13:54:35: Created /var/www/html/archive/stream_20250619_135356.mp4 and cleaned up processed .ts files
+2025-06-19 13:54:49: Current archive size: 1179304954 bytes (limit: 1073741824 bytes)
+2025-06-19 13:54:49: Current archive size: 1179304954 bytes (limit: 1073741824 bytes)
+2025-06-19 13:54:49: Deleted /var/www/html/archive/stream_20250617_050558.mp4 to reduce archive size
+2025-06-19 13:54:49: Deleted /var/www/html/archive/stream_20250617_050558.mp4 to reduce archive size
+2025-06-19 13:54:49: Archive size now approx: 1176587630 bytes
+2025-06-19 13:54:49: Archive size now approx: 1176587630 bytes
+2025-06-19 13:54:49: Deleted /var/www/html/archive/stream_20250617_050628.mp4 to reduce archive size
+2025-06-19 13:54:49: Deleted /var/www/html/archive/stream_20250617_050628.mp4 to reduce archive size
+2025-06-19 13:54:49: Archive size now approx: 1173368134 bytes
+2025-06-19 13:54:49: Archive size now approx: 1173368134 bytes
+2025-06-19 13:54:50: Deleted /var/www/html/archive/stream_20250617_050702.mp4 to reduce archive size
+2025-06-19 13:54:50: Deleted /var/www/html/archive/stream_20250617_050702.mp4 to reduce archive size
+2025-06-19 13:54:50: Archive size now approx: 1170065750 bytes
+2025-06-19 13:54:50: Archive size now approx: 1170065750 bytes
+2025-06-19 13:54:50: Deleted /var/www/html/archive/stream_20250617_050732.mp4 to reduce archive size
+2025-06-19 13:54:50: Deleted /var/www/html/archive/stream_20250617_050732.mp4 to reduce archive size
+2025-06-19 13:54:50: Archive size now approx: 1166588767 bytes
+2025-06-19 13:54:50: Archive size now approx: 1166588767 bytes
+2025-06-19 13:54:50: Deleted /var/www/html/archive/stream_20250617_050804.mp4 to reduce archive size
+2025-06-19 13:54:50: Deleted /var/www/html/archive/stream_20250617_050804.mp4 to reduce archive size
+2025-06-19 13:54:50: Archive size now approx: 1163122113 bytes
+2025-06-19 13:54:50: Archive size now approx: 1163122113 bytes
+2025-06-19 13:54:50: Deleted /var/www/html/archive/stream_20250617_050829.mp4 to reduce archive size
+2025-06-19 13:54:50: Deleted /var/www/html/archive/stream_20250617_050829.mp4 to reduce archive size
+2025-06-19 13:54:50: Archive size now approx: 1159753297 bytes
+2025-06-19 13:54:50: Archive size now approx: 1159753297 bytes
+2025-06-19 13:54:50: Deleted /var/www/html/archive/stream_20250617_050909.mp4 to reduce archive size
+2025-06-19 13:54:50: Deleted /var/www/html/archive/stream_20250617_050909.mp4 to reduce archive size
+2025-06-19 13:54:50: Archive size now approx: 1156291845 bytes
+2025-06-19 13:54:50: Archive size now approx: 1156291845 bytes
+2025-06-19 13:54:50: Deleted /var/www/html/archive/stream_20250617_050929.mp4 to reduce archive size
+2025-06-19 13:54:50: Deleted /var/www/html/archive/stream_20250617_050929.mp4 to reduce archive size
+2025-06-19 13:54:50: Archive size now approx: 1152828795 bytes
+2025-06-19 13:54:50: Archive size now approx: 1152828795 bytes
+2025-06-19 13:54:50: Deleted /var/www/html/archive/stream_20250617_051001.mp4 to reduce archive size
+2025-06-19 13:54:50: Deleted /var/www/html/archive/stream_20250617_051001.mp4 to reduce archive size
+2025-06-19 13:54:50: Archive size now approx: 1149729912 bytes
+2025-06-19 13:54:50: Archive size now approx: 1149729912 bytes
+2025-06-19 13:54:50: Deleted /var/www/html/archive/stream_20250617_051031.mp4 to reduce archive size
+2025-06-19 13:54:50: Deleted /var/www/html/archive/stream_20250617_051031.mp4 to reduce archive size
+2025-06-19 13:54:50: Archive size now approx: 1146248895 bytes
+2025-06-19 13:54:50: Archive size now approx: 1146248895 bytes
+2025-06-19 13:54:50: Deleted /var/www/html/archive/stream_20250617_051108.mp4 to reduce archive size
+2025-06-19 13:54:50: Deleted /var/www/html/archive/stream_20250617_051108.mp4 to reduce archive size
+2025-06-19 13:54:50: Archive size now approx: 1142961981 bytes
+2025-06-19 13:54:50: Archive size now approx: 1142961981 bytes
+2025-06-19 13:54:50: Deleted /var/www/html/archive/stream_20250617_051137.mp4 to reduce archive size
+2025-06-19 13:54:50: Deleted /var/www/html/archive/stream_20250617_051137.mp4 to reduce archive size
+2025-06-19 13:54:50: Archive size now approx: 1139670821 bytes
+2025-06-19 13:54:50: Archive size now approx: 1139670821 bytes
+2025-06-19 13:54:50: Deleted /var/www/html/archive/stream_20250617_051210.mp4 to reduce archive size
+2025-06-19 13:54:50: Deleted /var/www/html/archive/stream_20250617_051210.mp4 to reduce archive size
+2025-06-19 13:54:50: Archive size now approx: 1136294168 bytes
+2025-06-19 13:54:50: Archive size now approx: 1136294168 bytes
+2025-06-19 13:54:51: Deleted /var/www/html/archive/stream_20250617_051231.mp4 to reduce archive size
+2025-06-19 13:54:51: Deleted /var/www/html/archive/stream_20250617_051231.mp4 to reduce archive size
+2025-06-19 13:54:51: Archive size now approx: 1132737717 bytes
+2025-06-19 13:54:51: Archive size now approx: 1132737717 bytes
+2025-06-19 13:54:51: Deleted /var/www/html/archive/stream_20250617_051302.mp4 to reduce archive size
+2025-06-19 13:54:51: Deleted /var/www/html/archive/stream_20250617_051302.mp4 to reduce archive size
+2025-06-19 13:54:51: Archive size now approx: 1129225895 bytes
+2025-06-19 13:54:51: Archive size now approx: 1129225895 bytes
+2025-06-19 13:54:51: Deleted /var/www/html/archive/stream_20250617_051331.mp4 to reduce archive size
+2025-06-19 13:54:51: Deleted /var/www/html/archive/stream_20250617_051331.mp4 to reduce archive size
+2025-06-19 13:54:51: Archive size now approx: 1125748601 bytes
+2025-06-19 13:54:51: Archive size now approx: 1125748601 bytes
+2025-06-19 13:54:51: Deleted /var/www/html/archive/stream_20250617_051401.mp4 to reduce archive size
+2025-06-19 13:54:51: Deleted /var/www/html/archive/stream_20250617_051401.mp4 to reduce archive size
+2025-06-19 13:54:51: Archive size now approx: 1122288740 bytes
+2025-06-19 13:54:51: Archive size now approx: 1122288740 bytes
+2025-06-19 13:54:51: Deleted /var/www/html/archive/stream_20250617_051440.mp4 to reduce archive size
+2025-06-19 13:54:51: Deleted /var/www/html/archive/stream_20250617_051440.mp4 to reduce archive size
+2025-06-19 13:54:51: Archive size now approx: 1119416452 bytes
+2025-06-19 13:54:51: Archive size now approx: 1119416452 bytes
+2025-06-19 13:54:51: Deleted /var/www/html/archive/stream_20250617_051501.mp4 to reduce archive size
+2025-06-19 13:54:51: Deleted /var/www/html/archive/stream_20250617_051501.mp4 to reduce archive size
+2025-06-19 13:54:51: Archive size now approx: 1115936545 bytes
+2025-06-19 13:54:51: Archive size now approx: 1115936545 bytes
+2025-06-19 13:54:51: Deleted /var/www/html/archive/stream_20250617_051539.mp4 to reduce archive size
+2025-06-19 13:54:51: Deleted /var/www/html/archive/stream_20250617_051539.mp4 to reduce archive size
+2025-06-19 13:54:51: Archive size now approx: 1112601246 bytes
+2025-06-19 13:54:51: Archive size now approx: 1112601246 bytes
+2025-06-19 13:54:51: Deleted /var/www/html/archive/stream_20250617_051609.mp4 to reduce archive size
+2025-06-19 13:54:51: Deleted /var/www/html/archive/stream_20250617_051609.mp4 to reduce archive size
+2025-06-19 13:54:51: Archive size now approx: 1109289683 bytes
+2025-06-19 13:54:51: Archive size now approx: 1109289683 bytes
+2025-06-19 13:54:51: Deleted /var/www/html/archive/stream_20250617_051629.mp4 to reduce archive size
+2025-06-19 13:54:51: Deleted /var/www/html/archive/stream_20250617_051629.mp4 to reduce archive size
+2025-06-19 13:54:51: Archive size now approx: 1105823812 bytes
+2025-06-19 13:54:51: Archive size now approx: 1105823812 bytes
+2025-06-19 13:54:51: Deleted /var/www/html/archive/stream_20250617_051659.mp4 to reduce archive size
+2025-06-19 13:54:51: Deleted /var/www/html/archive/stream_20250617_051659.mp4 to reduce archive size
+2025-06-19 13:54:51: Archive size now approx: 1102754222 bytes
+2025-06-19 13:54:51: Archive size now approx: 1102754222 bytes
+2025-06-19 13:54:51: Deleted /var/www/html/archive/stream_20250617_051739.mp4 to reduce archive size
+2025-06-19 13:54:51: Deleted /var/www/html/archive/stream_20250617_051739.mp4 to reduce archive size
+2025-06-19 13:54:51: Archive size now approx: 1099546895 bytes
+2025-06-19 13:54:51: Archive size now approx: 1099546895 bytes
+2025-06-19 13:54:51: Deleted /var/www/html/archive/stream_20250617_051809.mp4 to reduce archive size
+2025-06-19 13:54:51: Deleted /var/www/html/archive/stream_20250617_051809.mp4 to reduce archive size
+2025-06-19 13:54:51: Archive size now approx: 1096170769 bytes
+2025-06-19 13:54:51: Archive size now approx: 1096170769 bytes
+2025-06-19 13:54:52: Deleted /var/www/html/archive/stream_20250617_051831.mp4 to reduce archive size
+2025-06-19 13:54:52: Deleted /var/www/html/archive/stream_20250617_051831.mp4 to reduce archive size
+2025-06-19 13:54:52: Archive size now approx: 1093081263 bytes
+2025-06-19 13:54:52: Archive size now approx: 1093081263 bytes
+2025-06-19 13:54:52: Deleted /var/www/html/archive/stream_20250617_051905.mp4 to reduce archive size
+2025-06-19 13:54:52: Deleted /var/www/html/archive/stream_20250617_051905.mp4 to reduce archive size
+2025-06-19 13:54:52: Archive size now approx: 1089975880 bytes
+2025-06-19 13:54:52: Archive size now approx: 1089975880 bytes
+2025-06-19 13:54:52: Deleted /var/www/html/archive/stream_20250617_051946.mp4 to reduce archive size
+2025-06-19 13:54:52: Deleted /var/www/html/archive/stream_20250617_051946.mp4 to reduce archive size
+2025-06-19 13:54:52: Archive size now approx: 1086961365 bytes
+2025-06-19 13:54:52: Archive size now approx: 1086961365 bytes
+2025-06-19 13:54:52: Deleted /var/www/html/archive/stream_20250617_052006.mp4 to reduce archive size
+2025-06-19 13:54:52: Deleted /var/www/html/archive/stream_20250617_052006.mp4 to reduce archive size
+2025-06-19 13:54:52: Archive size now approx: 1084420184 bytes
+2025-06-19 13:54:52: Archive size now approx: 1084420184 bytes
+2025-06-19 13:54:52: Deleted /var/www/html/archive/stream_20250617_052048.mp4 to reduce archive size
+2025-06-19 13:54:52: Deleted /var/www/html/archive/stream_20250617_052048.mp4 to reduce archive size
+2025-06-19 13:54:52: Archive size now approx: 1081144148 bytes
+2025-06-19 13:54:52: Archive size now approx: 1081144148 bytes
+2025-06-19 13:54:52: Deleted /var/www/html/archive/stream_20250617_052101.mp4 to reduce archive size
+2025-06-19 13:54:52: Deleted /var/www/html/archive/stream_20250617_052101.mp4 to reduce archive size
+2025-06-19 13:54:52: Archive size now approx: 1078328979 bytes
+2025-06-19 13:54:52: Archive size now approx: 1078328979 bytes
+2025-06-19 13:54:52: Deleted /var/www/html/archive/stream_20250617_052131.mp4 to reduce archive size
+2025-06-19 13:54:52: Deleted /var/www/html/archive/stream_20250617_052131.mp4 to reduce archive size
+2025-06-19 13:54:52: Archive size now approx: 1074868402 bytes
+2025-06-19 13:54:52: Archive size now approx: 1074868402 bytes
+2025-06-19 13:54:52: Deleted /var/www/html/archive/stream_20250617_052204.mp4 to reduce archive size
+2025-06-19 13:54:52: Deleted /var/www/html/archive/stream_20250617_052204.mp4 to reduce archive size
+2025-06-19 13:54:52: Archive size now approx: 1071876207 bytes
+2025-06-19 13:54:52: Archive size now approx: 1071876207 bytes
+2025-06-19 13:54:52: Archive size is within limit after cleanup.
+2025-06-19 13:54:52: Archive size is within limit after cleanup.
+2025-06-19 13:54:52: Detected event for file: output256.ts
+2025-06-19 13:54:52: Detected event for file: output256.ts
+Log file: /home/vesah/Stream2Web/logs/mp4compiler.log
+2025-06-19 13:54:50: Stale lock detected. Removing...
+2025-06-19 13:54:50: Stale lock detected. Removing...
+2025-06-19 13:54:50: SEGMENTS_PER_FILE calculated as: 150
+2025-06-19 13:54:50: SEGMENTS_PER_FILE calculated as: 150
+2025-06-19 13:54:51: Cleaning up leftover .ts files in /var/www/html/stream
+2025-06-19 13:54:51: Cleaning up leftover .ts files in /var/www/html/stream
+2025-06-19 13:54:51: Clearing STATE_FILE to handle filename reuse
+2025-06-19 13:54:51: Clearing STATE_FILE to handle filename reuse
+2025-06-19 13:55:08: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:55:08: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 13:55:27: Detected event for file: output0.ts
+2025-06-19 13:55:27: Detected event for file: output0.ts
+2025-06-19 13:55:29: Unprocessed files: 1
+2025-06-19 13:55:29: Unprocessed files: 1
+2025-06-19 13:55:29: Not enough segments (1/150)
+2025-06-19 13:55:29: Not enough segments (1/150)
+2025-06-19 13:55:30: Detected event for file: output1.ts
+2025-06-19 13:55:30: Detected event for file: output1.ts
+2025-06-19 13:55:33: Unprocessed files: 2
+2025-06-19 13:55:33: Unprocessed files: 2
+2025-06-19 13:55:33: Not enough segments (2/150)
+2025-06-19 13:55:33: Not enough segments (2/150)
+2025-06-19 13:55:34: Detected event for file: output2.ts
+2025-06-19 13:55:34: Detected event for file: output2.ts
+2025-06-19 13:55:39: Unprocessed files: 3
+2025-06-19 13:55:39: Unprocessed files: 3
+2025-06-19 13:55:39: Not enough segments (3/150)
+2025-06-19 13:55:39: Not enough segments (3/150)
+2025-06-19 13:55:42: Detected event for file: output4.ts
+2025-06-19 13:55:42: Detected event for file: output4.ts
+2025-06-19 13:55:50: Unprocessed files: 5
+2025-06-19 13:55:50: Unprocessed files: 5
+2025-06-19 13:55:50: Not enough segments (5/150)
+2025-06-19 13:55:50: Not enough segments (5/150)
+2025-06-19 13:55:50: Detected event for file: output6.ts
+2025-06-19 13:55:50: Detected event for file: output6.ts
+2025-06-19 13:56:01: Unprocessed files: 7
+2025-06-19 13:56:01: Unprocessed files: 7
+2025-06-19 13:56:01: Not enough segments (7/150)
+2025-06-19 13:56:01: Not enough segments (7/150)
+2025-06-19 13:56:04: Detected event for file: output9.ts
+2025-06-19 13:56:04: Detected event for file: output9.ts
+2025-06-19 13:56:19: Unprocessed files: 10
+2025-06-19 13:56:19: Unprocessed files: 10
+2025-06-19 13:56:20: Not enough segments (10/150)
+2025-06-19 13:56:20: Not enough segments (10/150)
+2025-06-19 13:56:22: Detected event for file: output14.ts
+2025-06-19 13:56:22: Detected event for file: output14.ts
+2025-06-19 13:56:45: Unprocessed files: 15
+2025-06-19 13:56:45: Unprocessed files: 15
+2025-06-19 13:56:45: Not enough segments (15/150)
+2025-06-19 13:56:45: Not enough segments (15/150)
+2025-06-19 13:56:47: Detected event for file: output20.ts
+2025-06-19 13:56:47: Detected event for file: output20.ts
+2025-06-19 13:57:19: Unprocessed files: 21
+2025-06-19 13:57:19: Unprocessed files: 21
+2025-06-19 13:57:19: Not enough segments (21/150)
+2025-06-19 13:57:19: Not enough segments (21/150)
+2025-06-19 13:57:19: Detected event for file: output28.ts
+2025-06-19 13:57:19: Detected event for file: output28.ts
+2025-06-19 13:58:03: Unprocessed files: 29
+2025-06-19 13:58:03: Unprocessed files: 29
+2025-06-19 13:58:03: Not enough segments (29/150)
+2025-06-19 13:58:03: Not enough segments (29/150)
+2025-06-19 13:58:06: Detected event for file: output40.ts
+2025-06-19 13:58:06: Detected event for file: output40.ts
+2025-06-19 13:59:04: Unprocessed files: 41
+2025-06-19 13:59:04: Unprocessed files: 41
+2025-06-19 13:59:04: Not enough segments (41/150)
+2025-06-19 13:59:04: Not enough segments (41/150)
+2025-06-19 13:59:06: Detected event for file: output55.ts
+2025-06-19 13:59:06: Detected event for file: output55.ts
+2025-06-19 14:00:27: Unprocessed files: 56
+2025-06-19 14:00:27: Unprocessed files: 56
+2025-06-19 14:00:27: Not enough segments (56/150)
+2025-06-19 14:00:27: Not enough segments (56/150)
+2025-06-19 14:00:32: Detected event for file: output76.ts
+2025-06-19 14:00:32: Detected event for file: output76.ts
+2025-06-19 14:02:21: Unprocessed files: 77
+2025-06-19 14:02:21: Unprocessed files: 77
+2025-06-19 14:02:21: Not enough segments (77/150)
+2025-06-19 14:02:21: Not enough segments (77/150)
+2025-06-19 14:02:22: Detected event for file: output104.ts
+2025-06-19 14:02:22: Detected event for file: output104.ts
+2025-06-19 14:04:56: Unprocessed files: 105
+2025-06-19 14:04:56: Unprocessed files: 105
+2025-06-19 14:04:56: Not enough segments (105/150)
+2025-06-19 14:04:56: Not enough segments (105/150)
+2025-06-19 14:04:58: Detected event for file: output143.ts
+2025-06-19 14:04:58: Detected event for file: output143.ts
+2025-06-19 14:08:33: Unprocessed files: 144
+2025-06-19 14:08:33: Unprocessed files: 144
+2025-06-19 14:08:33: Not enough segments (144/150)
+2025-06-19 14:08:33: Not enough segments (144/150)
+2025-06-19 14:08:35: Detected event for file: output197.ts
+2025-06-19 14:08:35: Detected event for file: output197.ts
+Log file: /home/vesah/Stream2Web/logs/mp4compiler.log
+2025-06-19 14:10:55: Stale lock detected. Removing...
+2025-06-19 14:10:55: Stale lock detected. Removing...
+2025-06-19 14:10:55: SEGMENTS_PER_FILE calculated as: 150
+2025-06-19 14:10:55: SEGMENTS_PER_FILE calculated as: 150
+2025-06-19 14:10:55: Cleaning up leftover .ts files in /var/www/html/stream
+2025-06-19 14:10:55: Cleaning up leftover .ts files in /var/www/html/stream
+2025-06-19 14:10:55: Clearing STATE_FILE to handle filename reuse
+2025-06-19 14:10:55: Clearing STATE_FILE to handle filename reuse
+2025-06-19 14:11:11: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 14:11:11: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 17:04:42: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 17:04:42: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 17:04:47: Detected event for file: output0.ts
+2025-06-19 17:04:47: Detected event for file: output0.ts
+2025-06-19 17:04:49: Unprocessed files: 1
+2025-06-19 17:04:49: Unprocessed files: 1
+2025-06-19 17:04:49: Not enough segments (1/150)
+2025-06-19 17:04:49: Not enough segments (1/150)
+2025-06-19 17:04:51: Detected event for file: output1.ts
+2025-06-19 17:04:51: Detected event for file: output1.ts
+2025-06-19 17:04:52: Unprocessed files: 2
+2025-06-19 17:04:52: Unprocessed files: 2
+2025-06-19 17:04:52: Not enough segments (2/150)
+2025-06-19 17:04:52: Not enough segments (2/150)
+2025-06-19 17:04:55: Detected event for file: output2.ts
+2025-06-19 17:04:55: Detected event for file: output2.ts
+2025-06-19 17:04:57: Unprocessed files: 3
+2025-06-19 17:04:57: Unprocessed files: 3
+2025-06-19 17:04:57: Not enough segments (3/150)
+2025-06-19 17:04:57: Not enough segments (3/150)
+2025-06-19 17:04:58: Detected event for file: output3.ts
+2025-06-19 17:04:58: Detected event for file: output3.ts
+2025-06-19 17:05:01: Unprocessed files: 4
+2025-06-19 17:05:01: Unprocessed files: 4
+2025-06-19 17:05:01: Not enough segments (4/150)
+2025-06-19 17:05:01: Not enough segments (4/150)
+2025-06-19 17:05:02: Detected event for file: output4.ts
+2025-06-19 17:05:02: Detected event for file: output4.ts
+2025-06-19 17:05:05: Unprocessed files: 5
+2025-06-19 17:05:05: Unprocessed files: 5
+2025-06-19 17:05:05: Not enough segments (5/150)
+2025-06-19 17:05:05: Not enough segments (5/150)
+2025-06-19 17:05:07: Detected event for file: output5.ts
+2025-06-19 17:05:07: Detected event for file: output5.ts
+2025-06-19 17:05:10: Unprocessed files: 6
+2025-06-19 17:05:10: Unprocessed files: 6
+2025-06-19 17:05:10: Not enough segments (6/150)
+2025-06-19 17:05:10: Not enough segments (6/150)
+2025-06-19 17:05:12: Detected event for file: output6.ts
+2025-06-19 17:05:12: Detected event for file: output6.ts
+2025-06-19 17:05:18: Unprocessed files: 7
+2025-06-19 17:05:18: Unprocessed files: 7
+2025-06-19 17:05:18: Not enough segments (7/150)
+2025-06-19 17:05:18: Not enough segments (7/150)
+2025-06-19 17:05:18: Detected event for file: output8.ts
+2025-06-19 17:05:18: Detected event for file: output8.ts
+2025-06-19 17:05:24: Unprocessed files: 9
+2025-06-19 17:05:24: Unprocessed files: 9
+2025-06-19 17:05:24: Not enough segments (9/150)
+2025-06-19 17:05:24: Not enough segments (9/150)
+2025-06-19 17:05:27: Detected event for file: output10.ts
+2025-06-19 17:05:27: Detected event for file: output10.ts
+2025-06-19 17:05:33: Unprocessed files: 11
+2025-06-19 17:05:33: Unprocessed files: 11
+2025-06-19 17:05:33: Not enough segments (11/150)
+2025-06-19 17:05:33: Not enough segments (11/150)
+2025-06-19 17:05:36: Detected event for file: output12.ts
+2025-06-19 17:05:36: Detected event for file: output12.ts
+2025-06-19 17:05:43: Unprocessed files: 13
+2025-06-19 17:05:43: Unprocessed files: 13
+2025-06-19 17:05:52: Not enough segments (13/150)
+2025-06-19 17:05:52: Not enough segments (13/150)
+2025-06-19 17:05:56: Detected event for file: output14.ts
+2025-06-19 17:05:56: Detected event for file: output14.ts
+2025-06-19 17:06:05: Unprocessed files: 15
+2025-06-19 17:06:05: Unprocessed files: 15
+2025-06-19 17:06:05: Not enough segments (15/150)
+2025-06-19 17:06:05: Not enough segments (15/150)
+2025-06-19 17:06:06: Detected event for file: output17.ts
+2025-06-19 17:06:06: Detected event for file: output17.ts
+2025-06-19 17:06:16: Unprocessed files: 18
+2025-06-19 17:06:16: Unprocessed files: 18
+2025-06-19 17:06:16: Not enough segments (18/150)
+2025-06-19 17:06:16: Not enough segments (18/150)
+2025-06-19 17:06:18: Detected event for file: output20.ts
+2025-06-19 17:06:18: Detected event for file: output20.ts
+2025-06-19 17:06:30: Unprocessed files: 21
+2025-06-19 17:06:30: Unprocessed files: 21
+2025-06-19 17:06:30: Not enough segments (21/150)
+2025-06-19 17:06:30: Not enough segments (21/150)
+2025-06-19 17:06:34: Detected event for file: output24.ts
+2025-06-19 17:06:34: Detected event for file: output24.ts
+2025-06-19 17:06:49: Unprocessed files: 25
+2025-06-19 17:06:49: Unprocessed files: 25
+2025-06-19 17:06:49: Not enough segments (25/150)
+2025-06-19 17:06:49: Not enough segments (25/150)
+2025-06-19 17:06:50: Detected event for file: output28.ts
+2025-06-19 17:06:50: Detected event for file: output28.ts
+2025-06-19 17:07:07: Unprocessed files: 29
+2025-06-19 17:07:07: Unprocessed files: 29
+2025-06-19 17:07:07: Not enough segments (29/150)
+2025-06-19 17:07:07: Not enough segments (29/150)
+2025-06-19 17:07:10: Detected event for file: output33.ts
+2025-06-19 17:07:10: Detected event for file: output33.ts
+2025-06-19 17:07:30: Unprocessed files: 34
+2025-06-19 17:07:30: Unprocessed files: 34
+2025-06-19 17:07:30: Not enough segments (34/150)
+2025-06-19 17:07:30: Not enough segments (34/150)
+2025-06-19 17:07:30: Detected event for file: output38.ts
+2025-06-19 17:07:30: Detected event for file: output38.ts
+2025-06-19 17:07:52: Unprocessed files: 39
+2025-06-19 17:07:52: Unprocessed files: 39
+2025-06-19 17:07:52: Not enough segments (39/150)
+2025-06-19 17:07:52: Not enough segments (39/150)
+2025-06-19 17:07:54: Detected event for file: output44.ts
+2025-06-19 17:07:54: Detected event for file: output44.ts
+2025-06-19 17:08:21: Unprocessed files: 45
+2025-06-19 17:08:21: Unprocessed files: 45
+2025-06-19 17:08:21: Not enough segments (45/150)
+2025-06-19 17:08:21: Not enough segments (45/150)
+2025-06-19 17:08:22: Detected event for file: output51.ts
+2025-06-19 17:08:22: Detected event for file: output51.ts
+2025-06-19 17:08:52: Unprocessed files: 52
+2025-06-19 17:08:52: Unprocessed files: 52
+2025-06-19 17:08:52: Not enough segments (52/150)
+2025-06-19 17:08:52: Not enough segments (52/150)
+2025-06-19 17:08:54: Detected event for file: output59.ts
+2025-06-19 17:08:54: Detected event for file: output59.ts
+Log file: /home/vesah/Stream2Web/logs/mp4compiler.log
+2025-06-19 17:08:32: Stale lock detected. Removing...
+2025-06-19 17:08:32: Stale lock detected. Removing...
+2025-06-19 17:08:32: SEGMENTS_PER_FILE calculated as: 150
+2025-06-19 17:08:32: SEGMENTS_PER_FILE calculated as: 150
+2025-06-19 17:08:33: Cleaning up leftover .ts files in /var/www/html/stream
+2025-06-19 17:08:33: Cleaning up leftover .ts files in /var/www/html/stream
+2025-06-19 17:08:33: Clearing STATE_FILE to handle filename reuse
+2025-06-19 17:08:33: Clearing STATE_FILE to handle filename reuse
+2025-06-19 17:08:48: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 17:08:48: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 17:39:15: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 17:39:15: WARNING: inotifywait failed, timed out, or was interrupted; retrying in 1s
+2025-06-19 17:39:19: Detected event for file: output0.ts
+2025-06-19 17:39:19: Detected event for file: output0.ts
+2025-06-19 17:39:20: Unprocessed files: 1
+2025-06-19 17:39:20: Unprocessed files: 1
+2025-06-19 17:39:20: Not enough segments (1/150)
+2025-06-19 17:39:20: Not enough segments (1/150)
+2025-06-19 17:39:21: Cleanup complete. Lock file removed.
+2025-06-19 17:39:21: Cleanup complete. Lock file removed.

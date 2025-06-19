@@ -13,14 +13,14 @@ set +a
 LOG_DIR="$BASE_DIR/${LOG_DIR#./}"
 LOCK_DIR="$BASE_DIR/${LOCK_DIR#./}"
 LOCK_FILE="$LOCK_DIR/${SCRIPT_NAME%.sh}.lock"
-LOG_FILE="$LOG_DIR/${SCRIPT_NAME}.log"
+LOG_FILE="$LOG_DIR/${SCRIPT_NAME%.sh}.log"
 exit_requested=0
 mkdir -p "$HLS_DIR" "$ARCHIVE_DIR" "$LOG_DIR"
 
 log() {
   echo "$(date '+%Y-%m-%d %H:%M:%S'): $*" | tee -a "$LOG_FILE"
 }
-
+echo "Log file: $LOG_FILE"
 log_error() {
   echo "$(date '+%Y-%m-%d %H:%M:%S'): ERROR: $*" | tee -a "$LOG_DIR/error.log" >&2
 }

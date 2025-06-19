@@ -1,0 +1,24 @@
+2025-06-19 09:10:23: Starting sender.sh
+2025-06-19 09:10:23: sender.sh started successfully (PID: 10796)
+2025-06-19 09:10:23: Starting web-setup.sh
+2025-06-19 09:10:23: web-setup.sh started successfully (PID: 10809)
+2025-06-19 09:10:24: Starting receiver.sh
+2025-06-19 09:10:24: receiver.sh started successfully (PID: 10827)
+2025-06-19 09:10:24: Starting mp4compiler.sh
+2025-06-19 09:10:24: mp4compiler.sh started successfully (PID: 10842)
+2025-06-19 09:10:24: All services started. Logs are in /home/vesah/Stream2Web/logs.
+2025-06-19 09:10:26: Cleanup complete. Lock file removed.
+2025-06-19 09:10:26: Stopping all child processes...
+2025-06-19 09:10:30: All .lock files successfully removed from tmp
+2025-06-19 10:03:17: Starting sender.sh
+2025-06-19 10:03:17: sender.sh started successfully (PID: 1855)
+2025-06-19 10:03:17: Starting web-setup.sh
+2025-06-19 10:03:17: web-setup.sh started successfully (PID: 1868)
+2025-06-19 10:03:17: Starting receiver.sh
+2025-06-19 10:03:17: receiver.sh started successfully (PID: 1883)
+2025-06-19 10:03:17: Starting mp4compiler.sh
+2025-06-19 10:03:17: mp4compiler.sh started successfully (PID: 1902)
+2025-06-19 10:03:17: All services started. Logs are in /home/vesah/Stream2Web/logs.
+2025-06-19 10:03:54: Cleanup complete. Lock file removed.
+2025-06-19 10:03:54: Stopping all child processes...
+2025-06-19 10:03:58: All .lock files successfully removed from tmp

@@ -15,14 +15,14 @@ set +a
 LOG_DIR="$BASE_DIR/${LOG_DIR#./}"
 LOCK_DIR="$BASE_DIR/${LOCK_DIR#./}"
 LOCK_FILE="$LOCK_DIR/${SCRIPT_NAME%.sh}.lock"
-LOG_FILE="$LOG_DIR/${SCRIPT_NAME}.log"
+LOG_FILE="$LOG_DIR/${SCRIPT_NAME%.sh}.log"
 
 mkdir -p "$LOG_DIR"
 
 log() {
   echo "$(date '+%Y-%m-%d %H:%M:%S'): $*" | tee -a "$LOG_FILE"
 }
-
+log "Script name: $SCRIPT_NAME Base directory: $BASE_DIR Scripts directory: $SCRIPTS_DIR Log directory: $LOG_DIR Lock directory: $LOCK_DIR Lock file: $LOCK_FILE Log file: $LOG_FILE"
 log_error() {
   echo "$(date '+%Y-%m-%d %H:%M:%S'): ERROR: $*" | tee -a "$LOG_DIR/error.log" >&2
 }
@@ -66,9 +66,21 @@ cleanup() {
 }
 trap cleanup SIGINT SIGTERM
 
+USBRESET=false
+
+for arg in "$@"; do
+  case "$arg" in
+    --usbreset)
+      USBRESET=true
+      ;;
+  esac
+done
+if [ "$USBRESET" = true ]; then
+  bash "$BASE_DIR/misc/usbreset.sh"
+fi
 SCRIPTS=(
-  "sender.sh"
   "web-setup.sh"
+  "sender.sh"
   "receiver.sh"
   "mp4compiler.sh"
 )

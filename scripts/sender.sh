@@ -13,7 +13,7 @@ set +a
 LOG_DIR="$BASE_DIR/${LOG_DIR#./}"
 LOCK_DIR="$BASE_DIR/${LOCK_DIR#./}"
 LOCK_FILE="$LOCK_DIR/${SCRIPT_NAME%.sh}.lock"
-LOG_FILE="$LOG_DIR/${SCRIPT_NAME}.log"
+LOG_FILE="$LOG_DIR/${SCRIPT_NAME%.sh}.log"
 
 mkdir -p "$LOG_DIR"
 
@@ -67,7 +67,11 @@ check_video_device() {
   return 0
 }
 
-[ ! -e "$VIDEO_DEVICE" ] && log_error "Video device $VIDEO_DEVICE not found!" && exit 1
+log "Waiting for video device $VIDEO_DEVICE..."
+until [ -e "$VIDEO_DEVICE" ]; do
+  sleep 1
+done
+log "$VIDEO_DEVICE is now available."
 
 cleanup_ffmpeg() {
   if pgrep -f "ffmpeg.*$VIDEO_DEVICE" &>/dev/null; then
