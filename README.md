@@ -21,7 +21,7 @@ This version still utilizes slow and semi-unstable HLS, this will be updated to 
 
 - Streams are saved in segmented `.st` files.  
 - These segments are automatically converted to 30-minute `.mp4` videos by default for easier playback and storage. (`.st` segments are cleaned afterwards). 
-- Archive size is managed by deleting the oldest files when limits are reached. Default max (10GB)
+- Archive size is managed by deleting the oldest files when limits are reached. Default max (1GB)
 
 Example archive URL:
 ```bash
