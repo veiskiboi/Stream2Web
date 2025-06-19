@@ -39,6 +39,7 @@ Example archive URL:
 - Install `receiver` on local or remote server
 - Use the `web-setup` script to configure Nginx automatically
 - Use the `nginx-stop` script to stop Nginx web server. To resume, run `web-setup` again
+- Use USB-port reset `usbreset` to ensure each USB-webcam is found. This is designed for USB-A port devices.
 
 Example access URL:  
 ```bash
