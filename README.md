@@ -37,7 +37,7 @@ You have two options:
 ### Camera Device* (Linux‑based)
 
 - Install `sender` to stream live camera feed via HLS (over UDP).
-- Use `usbreset` to ensure each USB webcam is detected. Designed for USB‑A port devices.
+- Use `usbreset` to ensure each USB port is detected. Designed for USB‑A port cameras.
 
 ### Server Device*
 
