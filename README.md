@@ -23,23 +23,27 @@ This version still utilizes slow and semi-unstable HLS, this will be updated to 
 - These segments are automatically converted to 30-minute `.mp4` videos by default for easier playback and storage. (`.st` segments are cleaned afterwards). 
 - Archive size is managed by deleting the oldest files when limits are reached. Default max (1GB)
 
-Example archive URL:
-```bash
-{SERVER_IP}:{WEB_PORT}/{ARCHIVE_DIR}
-# e.g.
-127.0.0.1:4000/archive
-&
-/etc/var/www/html/archive
-```
-
 ---
-## Advanced Usage
+## Deployment Options
 
-- Install `sender` to stream live camera feed via HLS (UDP)
-- Install `receiver` on local or remote server
-- Use the `web-setup` script to configure Nginx automatically
-- Use the `nginx-stop` script to stop Nginx web server. To resume, run `web-setup` again
-- Use USB-port reset `usbreset` to ensure each USB-webcam is found. This is designed for USB-A port devices.
+You have two options:
+
+1. **Basic setup**  
+   Run the `run` script to install everything you need on your local Linux‑based system.
+
+2. **Custom setup**  
+   Stream from a camera device through a Linux system and send it to a local or remote server.
+
+### Camera Device (Linux‑based)
+
+- Install `sender` to stream live camera feed via HLS (over UDP).
+- Use `usbreset` to ensure each USB webcam is detected. Designed for USB‑A port devices.
+
+### Server Device
+
+- Install `receiver` on a local or remote server.
+- Use `web-setup` to automatically configure Nginx.
+- Stop Nginx with `nginx-stop`; to restart, run `web-setup` again.
 
 Example access URL:  
 ```bash
@@ -49,7 +53,14 @@ Example access URL:
 &
 /etc/var/www/html/stream
 ```
-
+Example archive URL:
+```bash
+{SERVER_IP}:{WEB_PORT}/{ARCHIVE_DIR}
+# e.g.
+127.0.0.1:4000/archive
+&
+/etc/var/www/html/archive
+```
 ---
 ## Requirements
 
