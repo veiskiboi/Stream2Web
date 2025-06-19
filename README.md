@@ -5,7 +5,7 @@ The stream is archived automatically in segments, and accessible remotely.
 
 ---
 ## ⚠️ Important Notice
-This version still utilizes slow and semi-unstable HLS, this will be updated on next version.
+This version still utilizes slow and semi-unstable HLS, this will be updated to WebRTC on next version for convenience and performance.
 
 ---
 ## Features
