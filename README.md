@@ -16,6 +16,7 @@ This version utilizes encoder `libx264` that is heavy for CPU. If you've got bee
 - 🌐 Lightweight web interface with Nginx
 - 🔒 .env based configuration
 - 🚀 Fully scriptable setup and deployment
+- Other camera customization variables will be added soon
 
 ## Archiving
 
