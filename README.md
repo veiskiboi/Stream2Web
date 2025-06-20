@@ -4,8 +4,8 @@
 The stream is archived automatically in segments, and accessible remotely.
 
 ---
-## ⚠️ Important Notice
-This version still utilizes slow and semi-unstable HLS, this will be updated to WebRTC on next version for convenience and performance.
+## ⚠️ Important Notice for advanced users
+This version utilizes encoder `libx264` that is heavy for CPU. If you've got beefier system, you may want to change it to `h264_v4l2m2m` in ffmpeg statement. This is found in `sender.hs`
 
 ---
 ## Features
